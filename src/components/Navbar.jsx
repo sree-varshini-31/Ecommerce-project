@@ -1,37 +1,52 @@
+
 import React from "react";
+import logo from "../assets/logo-black.jpg";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white text-black flex justify-between items-center px-8 py-6 shadow-md">
+    <nav className="bg-white text-black flex justify-between items-center px-10 py-6 shadow-md">
       {/* Logo Section */}
-      <div className="flex items-center space-x-2">
-        {/* <img src="../assets/"alt="logo"
-          className="w-16 h-auto"
-        /> */}
-        <img src="../assets/luv1.jpg" alt="" />
+      <div className="flex items-center space-x-6 ml-10">
+        <img src={logo} alt="logo" className="w-32 h-auto object-contain" />
       </div>
 
       {/* Menu Links */}
-      <ul className="flex space-x-6 text-sm font-medium">
-        <li className="hover:text-gray-500 cursor-pointer">Bestsellers</li>
-        <li className="hover:text-gray-500 cursor-pointer">Skin Care</li>
-        <li className="hover:text-gray-500 cursor-pointer">Hair Care</li>
-        <li className="hover:text-gray-500 cursor-pointer">Makeup</li>
-        <li className="hover:text-gray-500 cursor-pointer">Kits & Combos</li>
-        <li className="hover:text-gray-500 cursor-pointer">Collections</li>
-        <li className="hover:text-gray-500 cursor-pointer">Fragrances</li>
-        <li className="hover:text-gray-500 cursor-pointer">Gifting</li>
-        <li className="hover:text-gray-500 cursor-pointer">More</li>
+      <ul className="flex space-x-8 text-lg font-semibold font-[Poppins] text-black">
+        {[
+          "Bestsellers",
+          "Skin Care",
+          "Hair Care",
+          "Makeup",
+          "Kits & Combos",
+          "Fragrances",
+        ].map((item) => (
+          <li
+            key={item}
+            className="cursor-pointer hover:text-purple-600 transition duration-300"
+          >
+            {item}
+          </li>
+        ))}
       </ul>
 
-      {/* Icons Section */}
+      {/* Search Bar + Icons Section */}
       <div className="flex items-center space-x-5 text-xl">
-        <i className="fa-solid fa-magnifying-glass cursor-pointer"></i>
+        {/* Search Bar */}
+        <div className="flex items-center border border-gray-300 rounded-full px-3 py-1">
+          <input
+            type="text"
+            placeholder="Search..."
+            className="outline-none text-sm w-32 md:w-48"
+          />
+          <i className="fa-solid fa-magnifying-glass text-gray-500 ml-2"></i>
+        </div>
+
+        {/* User Icon */}
         <i className="fa-regular fa-user cursor-pointer"></i>
-        <i className="fa-solid fa-truck cursor-pointer"></i>
+
+        {/* Cart Icon */}
         <div className="relative">
           <i className="fa-solid fa-cart-shopping cursor-pointer"></i>
-         
         </div>
       </div>
     </nav>
