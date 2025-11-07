@@ -20,42 +20,10 @@ import mask4 from '../assets/images/mask4.png'
 import mask5 from '../assets/images/mask5.png'
 import conditioner from '../assets/images/conditioner.jpg'
 import logo from '../assets/images/logo.png'
-import { FaInstagram, FaFacebookF, FaPinterestP } from 'react-icons/fa';
-import bg1 from '../assets/images/bg1-removebg-preview.png'
-import foo1 from '../assets/images/foo1.png'
 
 
 
 const Hair = () => {
-  const footerLinks = [
-    {
-      title: 'COMPANY',
-      links: [
-        { name: 'Our Story' },
-        { name: 'Sustainability' },
-        { name: 'Find a Store' },
-      ],
-    },
-    {
-      title: 'PRODUCTS',
-      links: [
-        { name: 'Shampoos & Cleansers' },
-        { name: 'Conditioners & Masks' },
-        { name: 'Treatments & Oils' },
-        { name: 'New Arrivals' },
-      ],
-    },
-    {
-      title: 'SUPPORT',
-      links: [
-        { name: 'Help Center & FAQ' },
-        { name: 'Shipping & Returns' },
-        { name: 'Account Login' },
-        { name: 'Contact Us' },
-      ],
-    },
-  ];
-
   return (
     <div>
         <img src={care} alt="" />
@@ -807,103 +775,96 @@ const Hair = () => {
         Add to cart
       </button>
     </div>
-    <div>
-      <img src={foo1} alt="" />
-    </div>
-    
     </section>
 
-    
+
 
 
   {/* footer */}
-   
-        <footer className= "bg-gradient-to-tr from-blue-50 to-pink-50 text-gray-600 border-t border-gray-500">
-          <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-            
-            {/* Main Content: Logo, Links, Social Icons */}
-            <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
-              
-              {/* Logo Section */}
-              <div className="col-span-2">
-                <img 
-                  src={bg1} // *IMPORTANT: Update this path*
-                  alt="Luvierra Hair Care Logo"
-                  className="h-12 w-auto"
-                />
-              </div>
-    
-              {/* Link Columns */}
-              {footerLinks.map((section) => (
-                <div key={section.title} className="col-span-1">
-                  <h3 className="text-sm font-bold tracking-wider mb-4 uppercase text-green-800">
-                    {section.title}
-                  </h3>
-                  <ul className="space-y-3">
-                    {section.links.map((link) => (
-                      <li key={link.name}>
-                        {/* Link Structure maintained for easy addition of 'href' later */}
-                        <span 
-                          className="text-sm hover:text-green-600 transition duration-150 ease-in-out cursor-pointer"
-                        >
-                          {link.name}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-    
-              {/* Social Icons Section (Spotify-like circles) */}
-              <div className="col-span-2 md:col-span-1 flex justify-end space-x-4">
-                {/* Social Icons also have placeholder spans instead of <a> tags */}
-                <span
-                  aria-label="Instagram"
-                  className="w-10 h-10 flex items-center justify-center rounded-full bg-green-200 text-green-800 hover:bg-green-300 transition duration-150 ease-in-out cursor-pointer"
-                >
-                  <FaInstagram className="text-xl" />
-                </span>
-                <span
-                  aria-label="Facebook"
-                  className="w-10 h-10 flex items-center justify-center rounded-full bg-green-200 text-green-800 hover:bg-green-300 transition duration-150 ease-in-out cursor-pointer"
-                >
-                  <FaFacebookF className="text-xl" />
-                </span>
-                <span
-                  aria-label="Pinterest"
-                  className="w-10 h-10 flex items-center justify-center rounded-full bg-green-200 text-green-800 hover:bg-green-300 transition duration-150 ease-in-out cursor-pointer"
-                >
-                  <FaPinterestP className="text-xl" />
-                </span>
-              </div>
+  <footer className="bg-[#0e1a16] text-gray-200">
+      {/* top */}
+      <div className="mx-auto max-w-7xl px-6 py-12">
+        <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
+          {/* brand */}
+          <div className="max-w-sm">
+            <div className="flex items-center gap-3">
+              <img
+                src={logo}
+                alt="Luvierra"
+                className="h-10 w-10 object-contain rounded-none"
+              />
+              <span className="text-2xl font-semibold tracking-wide">Luvierra</span>
             </div>
-    
-            <hr className="my-8 border-green-200" />
-    
-            {/* Bottom Bar: Legal Links and Copyright */}
-            <div className="flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
-              
-              {/* Legal Links */}
-              <div className="flex flex-wrap space-x-4 mb-4 md:mb-0">
-                <span className="hover:text-green-600 cursor-pointer">Legal</span>
-                <span className="hover:text-green-600 cursor-pointer">Privacy Policy</span>
-                <span className="hover:text-green-600 cursor-pointer">Cookies</span>
-                <span className="hover:text-green-600 cursor-pointer">Accessibility</span>
-              </div>
-    
-              {/* Copyright */}
-              <div className="flex space-x-4 items-center">
-                <span>© {new Date().getFullYear()} Luvierra. All rights reserved.</span>
-                <span className="ml-4 flex items-center text-green-700 font-medium">
-                    <span role="img" aria-label="globe">🌎</span>
-                    <span className="ml-1">USA (English)</span>
-                </span>
+            <p className="mt-4 text-sm text-gray-400">
+              Clean, science‑backed hair care for stronger strands and a calmer scalp.
+            </p>
+          </div>
+
+          {/* columns */}
+          <div className="grid grid-cols-2 gap-10 sm:grid-cols-3 lg:grid-cols-4">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-widest text-emerald-300">
+                Company
+              </p>
+              <ul className="mt-4 space-y-3 text-sm">
+                <li><a className="hover:text-white" href="#">About</a></li>
+                <li><a className="hover:text-white" href="#">Careers</a></li>
+                <li><a className="hover:text-white" href="#">Press</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-widest text-emerald-300">
+                Hair Care
+              </p>
+              <ul className="mt-4 space-y-3 text-sm">
+                <li><a className="hover:text-white" href="#">Shampoos</a></li>
+                <li><a className="hover:text-white" href="#">Conditioners</a></li>
+                <li><a className="hover:text-white" href="#">Serums & Oils</a></li>
+                <li><a className="hover:text-white" href="#">Treatments</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-widest text-emerald-300">
+                Support
+              </p>
+              <ul className="mt-4 space-y-3 text-sm">
+                <li><a className="hover:text-white" href="#">Help Center</a></li>
+                <li><a className="hover:text-white" href="#">Shipping & Returns</a></li>
+                <li><a className="hover:text-white" href="#">Track Order</a></li>
+                <li><a className="hover:text-white" href="#">Contact Us</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-widest text-emerald-300">
+                Follow
+              </p>
+              <div className="mt-4 flex items-center gap-3">
+                <a className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/10 hover:bg-white/20" href="#" aria-label="Instagram">IG</a>
+                <a className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/10 hover:bg-white/20" href="#" aria-label="X">X</a>
+                <a className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/10 hover:bg-white/20" href="#" aria-label="Facebook">f</a>
               </div>
             </div>
           </div>
-        </footer>
-      
-  
+        </div>
+
+        {/* divider */}
+        <div className="mt-10 h-px w-full bg-white/10" />
+
+        {/* bottom row */}
+        <div className="mt-6 flex flex-col items-start justify-between gap-4 text-xs text-gray-400 md:flex-row">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
+            <a href="#" className="hover:text-white">Legal</a>
+            <a href="#" className="hover:text-white">Privacy</a>
+            <a href="#" className="hover:text-white">Cookies</a>
+            <a href="#" className="hover:text-white">Accessibility</a>
+          </div>
+          <p>© {new Date().getFullYear()} Luvierra Hair Care</p>
+        </div>
+      </div>
+    </footer>
 
     
   
