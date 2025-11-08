@@ -4,6 +4,7 @@ import care from '../assets/images/Untitled Project (2).jpg'
 import { FaInstagram, FaFacebookF, FaPinterestP } from 'react-icons/fa';
 import bg1 from '../assets/images/bg1-removebg-preview.png'
 import foo1 from '../assets/images/foo1.png'
+import best from '../assets/images/best.png'
 import combos from '../assets/images/combos.jpg'
 import combos1 from '../assets/images/combos1.jpg'
 import combos2 from '../assets/images/combos2.png'
@@ -15,7 +16,7 @@ import combos7 from '../assets/images/combos7.png'
 
 
 
-const Hair = () => {
+const Best = () => {
   const footerLinks = [
     {
       title: 'COMPANY',
@@ -46,8 +47,8 @@ const Hair = () => {
   ];
 
   return (
-    <div>
-        <img src={care} alt="" />
+    <div >
+        <img src={best} alt="" className="w-full h-auto" />
         <br />
         {/* 1st parent product card */}
     <section className="flex flex-row flex-wrap items-start justify-evenly gap-x-4 gap-y-6">
@@ -564,4 +565,4 @@ const Hair = () => {
   )
 }
 
-export default Hair
+export default Best
