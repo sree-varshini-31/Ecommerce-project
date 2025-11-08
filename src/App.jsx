@@ -4,16 +4,20 @@ import './index.css';
 import Navbar from './components/Navbar';
 import Hair from './components/Hair';
 import Home from './components/Home';
+import Fragrances from './components/Fragrances';
+
 
 
 const App = () => {
   return (
     <div>
-      <Home/>
+      {/* <Home/> */}
       {/* <Register /> */}
       {/* <Navbar/> */}
       {/* <Hair /> */}
-      
+    <Fragrances/>
+    
+
     </div>
   )
 }
