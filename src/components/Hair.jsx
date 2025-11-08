@@ -86,14 +86,14 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+       
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Sulphate Free Shampoo
         </h3>
 
         <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
@@ -135,20 +135,20 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+        
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Coconut Oil
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">100% Pure Coconut Oil</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
           <span className="text-xl font-semibold text-gray-900">₹345</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-sm text-gray-400 line-through">₹750</span>
+          <span className="text-sm font-medium text-green-600">(54% OFF)</span>
         </div>
       </div>
 
@@ -184,20 +184,20 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+        
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+        25% AHA 2% BHA Serum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">For Silky, Smooth Hair</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹399</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹300</span>
+          <span className="text-sm text-gray-400 line-through">₹699</span>
+          <span className="text-sm font-medium text-green-600">(57% OFF)</span>
         </div>
       </div>
 
@@ -234,20 +234,20 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+        
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+         Fenugreek Hair Growth-Mask
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Reduces dandruff</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
           <span className="text-xl font-semibold text-gray-900">₹429</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-sm text-gray-400 line-through">₹875</span>
+          <span className="text-sm font-medium text-green-600">(51% OFF)</span>
         </div>
       </div>
 
@@ -284,20 +284,20 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+        Bhringraj Anti-Hairfall Shampoo
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Strengthens hair roots</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
           <span className="text-xl font-semibold text-gray-900">₹358</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-sm text-gray-400 line-through">₹675</span>
+          <span className="text-sm font-medium text-green-600">(47% OFF)</span>
         </div>
       </div>
 
@@ -334,20 +334,20 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+        
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Argan Oil
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Reduces dandruff.</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹546</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          
+          <span className="text-xl font-semibold text-gray-900">₹399</span>
+          <span className="text-sm text-gray-400 line-through">₹720</span>
+           <span className="text-sm font-medium text-green-600">(45% OFF)</span>
         </div>
       </div>
 
@@ -371,7 +371,7 @@ const Hair = () => {
       {/* image */}
       <div className="relative bg-gray-50">
         <img
-          src={serum2}
+          src={oil5}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -387,16 +387,17 @@ const Hair = () => {
        
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+        Bringraj Oil
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Prevents premature greying</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
           <span className="text-xl font-semibold text-gray-900">₹344</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
+          <span className="text-sm text-gray-400 line-through">₹599</span>
+          <span className="text-sm font-medium text-green-600">(43% OFF)</span>
          
         </div>
       </div>
@@ -437,17 +438,17 @@ const Hair = () => {
         
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+         Nature’s Strength Hair- Mask
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Strengthens hair roots</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹702</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹450</span>
+          <span className="text-sm text-gray-400 line-through">₹1100</span>
+          <span className="text-sm font-medium text-green-600">(59% OFF)</span>
         </div>
       </div>
 
@@ -484,20 +485,20 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+      
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+         Climbazole Anti-Dandruff Shampoo
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Natural antifungal agents to control dandruf</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹640</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹340</span>
+          <span className="text-sm text-gray-400 line-through">₹595</span>
+          <span className="text-sm font-medium text-green-600">(72% OFF)</span>
         </div>
       </div>
 
@@ -534,20 +535,20 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+      
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Tea Tree Oil
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Antifungal and antibacterial</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹345</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹530</span>
+          <span className="text-sm text-gray-400 line-through">₹725</span>
+          <span className="text-sm font-medium text-green-600">(73% OFF)</span>
         </div>
       </div>
 
@@ -571,7 +572,7 @@ const Hair = () => {
       {/* image */}
       <div className="relative bg-gray-50">
         <img
-          src={serum2}
+          src={mask4}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -584,20 +585,20 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+        
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Aloe Vera Hair-Mask
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Promotes healthy hair growth</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
           <span className="text-xl font-semibold text-gray-900">₹544</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-sm text-gray-400 line-through">₹995</span>
+          <span className="text-sm font-medium text-green-600">(45% OFF)</span>
         </div>
       </div>
 
@@ -634,20 +635,20 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+        
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+         CalmCrown Anti-Dandruff Hair Mask
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Soothing care for your scalp and hair,</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹592</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹499</span>
+          <span className="text-sm text-gray-400 line-through">₹840</span>
+          <span className="text-sm font-medium text-green-600">(41% OFF)</span>
         </div>
       </div>
 
@@ -684,20 +685,20 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+       
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Nature’s Pulse Onion Based Shampoo
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Root nourishment and hair growth</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹612</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹302</span>
+          <span className="text-sm text-gray-400 line-through">₹755</span>
+          <span className="text-sm font-medium text-green-600">(60% OFF)</span>
         </div>
       </div>
 
@@ -733,20 +734,20 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+      
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          HerbalPulse Rosemary Hair Oil Combo
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Boost hair growth</p>
+        <p className="text-xs text-gray-400 mt-0.5">2 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹512</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹396</span>
+          <span className="text-sm text-gray-400 line-through">₹995</span>
+          <span className="text-sm font-medium text-green-600">(40% OFF)</span>
         </div>
       </div>
 
@@ -782,20 +783,20 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+       
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+         PureBloom Volume & Shine Conditioner Combo
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Repair dryness and frizz</p>
+        <p className="text-xs text-gray-400 mt-0.5">2 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹455</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹235</span>
+          <span className="text-sm text-gray-400 line-through">₹690</span>
+          <span className="text-sm font-medium text-green-600">(34% OFF)</span>
         </div>
       </div>
 

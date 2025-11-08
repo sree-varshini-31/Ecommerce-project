@@ -11,13 +11,12 @@ import Fragrances from './components/Fragrances';
 const App = () => {
   return (
     <div>
-      {/* <Home/> */}
+      <Home/>
       {/* <Register /> */}
       {/* <Navbar/> */}
+      
       {/* <Hair /> */}
-    <Fragrances/>
-    
-
+      
     </div>
   )
 }
