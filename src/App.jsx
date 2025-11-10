@@ -9,6 +9,7 @@ import Combos from './components/Combos';
 import Best from './components/Best';
 
 import Fragrances from './components/Fragrances';
+import Makeup from './components/Makeup';
 
 
 
@@ -23,8 +24,8 @@ const App = () => {
       {/* <Register /> */}
       {/* <Navbar/> */}
       {/* <Combos /> */}
-      {/* <Hair /> */}
-      
+      {/* <Hair />  */}
+      <Makeup />
 {/* <Fragrances /> */}
       {/* <Best /> */}
       
