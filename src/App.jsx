@@ -23,9 +23,9 @@ const App = () => {
 
       {/* <Register /> */}
       {/* <Navbar/> */}
-      {/* <Combos /> */}
+      <Combos />
       {/* <Hair />  */}
-      <Makeup />
+      {/* <Makeup /> */}
 {/* <Fragrances /> */}
       {/* <Best /> */}
       

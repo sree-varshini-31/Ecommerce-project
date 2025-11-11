@@ -78,17 +78,17 @@ const Hair = () => {
        
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Sulphate Free Shampoo
+          GlowEssence Lip Velvet Lipstick Vitamin Serum Brightening Moisturizer Beauty Products (Combos)
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
+        <p className="mt-1 text-sm text-gray-500">give soft, smooth lips and naturally glowing skin</p>
         <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹455</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹1100</span>
+          <span className="text-sm text-gray-400 line-through">₹1599</span>
+          <span className="text-sm font-medium text-green-600">(31% OFF)</span>
         </div>
       </div>
 
@@ -127,17 +127,17 @@ const Hair = () => {
         
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Coconut Oil
+          Ayura Radiant Hair Shine Serum Vitamin C Face Serum Skin Glow Cream Beauty Products (Combos)
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">100% Pure Coconut Oil</p>
+        <p className="mt-1 text-sm text-gray-500">Shiny hair and bright, hydrated skin</p>
         <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹345</span>
-          <span className="text-sm text-gray-400 line-through">₹750</span>
-          <span className="text-sm font-medium text-green-600">(54% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹1120</span>
+          <span className="text-sm text-gray-400 line-through">₹1800</span>
+          <span className="text-sm font-medium text-green-600">(38% OFF)</span>
         </div>
       </div>
 
@@ -176,17 +176,17 @@ const Hair = () => {
         
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-        25% AHA 2% BHA Serum
+        Rosemary Anti-Hairfall Shampoo, Anti-Hairfall Conditioner, and Anti-Hairfall Hair Mask (Combos)
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">For Silky, Smooth Hair</p>
+        <p className="mt-1 text-sm text-gray-500">Stimulates hair growth ,Reduces hair fall</p>
         <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹300</span>
-          <span className="text-sm text-gray-400 line-through">₹699</span>
-          <span className="text-sm font-medium text-green-600">(57% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹800</span>
+          <span className="text-sm text-gray-400 line-through">₹1200</span>
+          <span className="text-sm font-medium text-green-600">(33% OFF)</span>
         </div>
       </div>
 
@@ -226,17 +226,17 @@ const Hair = () => {
         
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-         Fenugreek Hair Growth-Mask
+        BotaniGlow Green Tea Antioxidant Serum Mask Moisturizer Beauty Product (Combos)
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces dandruff</p>
+        <p className="mt-1 text-sm text-gray-500">Anti-ageing / Wrinkle defence</p>
         <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹429</span>
-          <span className="text-sm text-gray-400 line-through">₹875</span>
-          <span className="text-sm font-medium text-green-600">(51% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹900</span>
+          <span className="text-sm text-gray-400 line-through">₹1899</span>
+          <span className="text-sm font-medium text-green-600">(47% OFF)</span>
         </div>
       </div>
 
@@ -276,7 +276,7 @@ const Hair = () => {
 
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-        Bhringraj Anti-Hairfall Shampoo
+        Tea Tree & Mint Shampoo Conditioner & Hair Mask (Combos)
         </h3>
 
         <p className="mt-1 text-sm text-gray-500">Strengthens hair roots</p>
@@ -284,9 +284,9 @@ const Hair = () => {
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹358</span>
-          <span className="text-sm text-gray-400 line-through">₹675</span>
-          <span className="text-sm font-medium text-green-600">(47% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹875</span>
+          <span className="text-sm text-gray-400 line-through">₹1370</span>
+          <span className="text-sm font-medium text-green-600">(36% OFF)</span>
         </div>
       </div>
 
@@ -326,17 +326,17 @@ const Hair = () => {
         
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Argan Oil
+          VitaGlow Vitamin C Serum Brightening gel & Moisturizer(Combos)
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces dandruff.</p>
+        <p className="mt-1 text-sm text-gray-500">Antioxidant Protection</p>
         <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹399</span>
-          <span className="text-sm text-gray-400 line-through">₹720</span>
-           <span className="text-sm font-medium text-green-600">(45% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹650</span>
+          <span className="text-sm text-gray-400 line-through">1399</span>
+           <span className="text-sm font-medium text-green-600">(53% OFF)</span>
         </div>
       </div>
 
@@ -376,17 +376,17 @@ const Hair = () => {
        
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-        Bringraj Oil
+        SilkKeratin Smooth Shampoo Conditioner & Hair Mask (Combos)
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Prevents premature greying</p>
+        <p className="mt-1 text-sm text-gray-500">Strengthens & Repairs Hair</p>
         <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹344</span>
-          <span className="text-sm text-gray-400 line-through">₹599</span>
-          <span className="text-sm font-medium text-green-600">(43% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹800</span>
+          <span className="text-sm text-gray-400 line-through">₹1049</span>
+          <span className="text-sm font-medium text-green-600">(23% OFF)</span>
          
         </div>
       </div>
@@ -427,17 +427,17 @@ const Hair = () => {
         
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-         Nature’s Strength Hair- Mask
+         Rose & Hydratien Creamy Fash wash Hydratien Serum & Nature Glow Vitamin E Moisturizer
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Strengthens hair roots</p>
+        <p className="mt-1 text-sm text-gray-500">Deep Hydration & Softness</p>
         <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹450</span>
-          <span className="text-sm text-gray-400 line-through">₹1100</span>
-          <span className="text-sm font-medium text-green-600">(59% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹1099</span>
+          <span className="text-sm text-gray-400 line-through">₹1599</span>
+          <span className="text-sm font-medium text-green-600">(31% OFF)</span>
         </div>
       </div>
 
