@@ -23,11 +23,11 @@ const App = () => {
 
       {/* <Register /> */}
       {/* <Navbar/> */}
-      <Combos />
+      {/* <Combos /> */}
       {/* <Hair />  */}
       {/* <Makeup /> */}
 {/* <Fragrances /> */}
-      {/* <Best /> */}
+      <Best />
       
 
     </div>
