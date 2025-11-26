@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import React from "react";
 import logo from "../assets/logo-black.jpg";
 
@@ -12,22 +12,22 @@ const Navbar = () => {
 
       {/* Menu Links */}
       <ul className="flex space-x-8 text-lg font-semibold font-[Poppins] text-black">
-        {[
-          "Bestsellers",
-          "Skin Care",
-          "Hair Care",
-          "Makeup",
-          "Kits & Combos",
-          "Fragrances",
-        ].map((item) => (
-          <li
-            key={item}
-            className="cursor-pointer hover:text-purple-600 transition duration-300"
-          >
-            {item}
-          </li>
-        ))}
-      </ul>
+  {[
+    { name: "Bestsellers", path: "/bestsellers" },
+    { name: "Skin Care", path: "/skincare" },
+    { name: "Hair Care", path: "/haircare" },
+    { name: "Makeup", path: "/makeup" },
+    { name: "Kits & Combos", path: "/kits-combos" },
+    { name: "Fragrances", path: "/fragrances" },
+  ].map((item) => (
+    <li
+      key={item.name}
+      className="cursor-pointer hover:text-purple-600 transition duration-300"
+    >
+      <Link to={item.path}>{item.name}</Link>
+    </li>
+  ))}
+</ul>
 
       {/* Search Bar + Icons Section */}
       <div className="flex items-center space-x-5 text-xl">
@@ -42,7 +42,9 @@ const Navbar = () => {
         </div>
 
         {/* User Icon */}
-        <i className="fa-regular fa-user cursor-pointer"></i>
+        <Link to="/login">
+          <i className="fa-regular fa-user cursor-pointer text-xl hover:text-purple-600"></i>
+        </Link>
 
         {/* Cart Icon */}
         <div className="relative">
