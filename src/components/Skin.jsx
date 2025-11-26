@@ -1,32 +1,54 @@
 import React from 'react'
-import care from '../assets/images/Untitled Project (2).jpg'
-import shampoo1 from '../assets/images/shampoo1.png'
-import shampoo2 from '../assets/images/shampoo2.png'
-import shampoo3 from '../assets/images/shampoo3.png'
-import shampoo4 from '../assets/images/shampoo4.png'
-import shampoo5 from '../assets/images/shampoo5.png'
-import oil1 from '../assets/images/oil1.png'
-import oil2 from '../assets/images/oil2.png'
-import oil3 from '../assets/images/oil3.png'
-import oil4 from '../assets/images/oil4.png'
-import oil5 from '../assets/images/oil5.png'
-import serum from '../assets/images/serum.png'
-import serum1 from '../assets/images/serum1.png'
-import serum2 from '../assets/images/serum1.png'
-import mask1 from '../assets/images/mask1.png'
-import mask2 from '../assets/images/mask2.png'
-import mask3 from '../assets/images/mask3.png'
-import mask4 from '../assets/images/mask4.png'
-import mask5 from '../assets/images/mask5.png'
-import conditioner from '../assets/images/conditioner.jpg'
-import logo from '../assets/images/logo.png'
+import skin1 from "../assets/Imagess/skin1.png"
+import skin2 from "../assets/Imagess/skin2.png"
+import skin3 from "../assets/Imagess/skin3.png"
+import skin4 from "../assets/Imagess/skin4.png"
+import skin5 from "../assets/Imagess/skin5.png"
+import skin6 from "../assets/Imagess/skin6.png"
+import skin7 from "../assets/Imagess/skin7.png"
+import skin8 from "../assets/Imagess/skin8.png"
+import skin9 from "../assets/Imagess/skin9.png"
+import skin10 from "../assets/Imagess/skin10.png"
+import skin11 from "../assets/Imagess/skin11.png"
+import skin12 from "../assets/Imagess/skin12.png"
+import skin13 from "../assets/Imagess/skin13.png"
+import skin14 from "../assets/Imagess/skin14.png"
+import skin15 from "../assets/Imagess/skin15.png"
+import skin from  "../assets/Imagess/skin.png"
+import bg1 from "../assets/images/bg1-removebg-preview.png"
+import foo1 from "../assets/images/foo1.png"
+import { FaInstagram,  FaFacebookF, FaPinterestP } from "react-icons/fa";
 
 
 
 const Hair = () => {
+  const footerLinks = [
+  {
+    title: "Products",
+    links: [{ name: "Face Care" }, { name: "Body Care" }, { name: "Hair Care" }, { name: "Accessories" }]
+  },
+  {
+    title: "About",
+    links: [{ name: "Our Story" }, { name: "Sustainability" }, { name: "Ingredients" }]
+  },
+  {
+    title: "Customer Care",
+    links: [
+      { name: "Shipping" },
+      { name: "Returns" },
+      { name: "FAQs" },
+      { name: "Contact Us" }
+    ]
+  },
+  {
+    title: "Community",
+    links: [{ name: "Blog" }, { name: "Events" }, { name: "Reviews" }]
+  }
+];
+
   return (
     <div>
-        <img src={care} alt="" />
+         <img src={skin} alt="" /> 
         <br />
         {/* 1st parent product card */}
     <section className="flex flex-row flex-wrap items-start justify-evenly gap-x-4 gap-y-6">
@@ -38,17 +60,17 @@ const Hair = () => {
         </span>
       </div>
 
-      {/* image */}
+      {/* image  1*/}
       <div className="relative bg-gray-50">
         <img
-          src={shampoo1}
+          src={skin1}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
         />
         {/* rating */}
         <div className="absolute bottom-2 right-2 rounded-full bg-white/95 px-2 py-1 text-xs font-semibold shadow">
-          4.9★
+          4.3★
         </div>
       </div>
 
@@ -57,16 +79,16 @@ const Hair = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+         Daily Moisturizer
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
+        <p className="mt-1 text-sm text-gray-500">Hydrate skin</p>
         <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹455</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
+          <span className="text-xl font-semibold text-gray-900">₹355</span>
+      
           <span className="text-sm font-medium text-green-600">(30% OFF)</span>
         </div>
       </div>
@@ -87,10 +109,10 @@ const Hair = () => {
         </span>
       </div>
 
-      {/* image */}
+      {/* image 2*/}
       <div className="relative bg-gray-50">
         <img
-          src={oil1}
+          src={skin2}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -103,20 +125,20 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+        <p className="text-[11px] font-semibold text-emerald-600">Just In</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Papaya Sunscreen	
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Sun defense</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹345</span>
+          <span className="text-xl font-semibold text-gray-900">₹545</span>
           <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-sm font-medium text-green-600">(20% OFF)</span>
         </div>
       </div>
 
@@ -136,10 +158,10 @@ const Hair = () => {
         </span>
       </div>
 
-      {/* image */}
+      {/* image 3*/}
       <div className="relative bg-gray-50">
         <img
-          src={serum}
+          src={skin3}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -152,169 +174,18 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+        <p className="text-[11px] font-semibold text-emerald-600">New Trending</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Grape Face Toner	
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Minimize, refine pores</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Units</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹399</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
-        </div>
-      </div>
-
-      {/* full-width CTA with square edges */}
-      <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
-    </div>
-
-    <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
-      {/* ribbon */}
-      <div className="absolute m-3">
-        <span className="rounded-md bg-emerald-600 px-2.5 py-1 text-xs font-medium text-white">
-          FLAT30%OFF
-        </span>
-      </div>
-
-      {/* image */}
-      <div className="relative bg-gray-50">
-        <img
-          src={mask1}
-          alt="Luvierra Sulfate‑Free Shampoo"
-          className="h-64 w-full object-cover rounded-none"
-          loading="lazy"
-        />
-        {/* rating */}
-        <div className="absolute bottom-2 right-2 rounded-full bg-white/95 px-2 py-1 text-xs font-semibold shadow">
-          4.9★
-        </div>
-      </div>
-
-      {/* body */}
-      <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
-
-        <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
-        </h3>
-
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
-
-        {/* price row */}
-        <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹429</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
-        </div>
-      </div>
-
-      {/* full-width CTA with square edges */}
-      <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
-    </div>
-
-    <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
-      {/* ribbon */}
-      <div className="absolute m-3">
-        <span className="rounded-md bg-emerald-600 px-2.5 py-1 text-xs font-medium text-white">
-          FLAT30%OFF
-        </span>
-      </div>
-
-      {/* image */}
-      <div className="relative bg-gray-50">
-        <img
-          src={shampoo2}
-          alt="Luvierra Sulfate‑Free Shampoo"
-          className="h-64 w-full object-cover rounded-none"
-          loading="lazy"
-        />
-        {/* rating */}
-        <div className="absolute bottom-2 right-2 rounded-full bg-white/95 px-2 py-1 text-xs font-semibold shadow">
-          4.9★
-        </div>
-      </div>
-
-      {/* body */}
-      <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
-
-        <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
-        </h3>
-
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
-
-        {/* price row */}
-        <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹358</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
-        </div>
-      </div>
-
-      {/* full-width CTA with square edges */}
-      <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
-    </div>
-
-    <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
-      {/* ribbon */}
-      <div className="absolute m-3">
-        <span className="rounded-md bg-emerald-600 px-2.5 py-1 text-xs font-medium text-white">
-          FLAT30%OFF
-        </span>
-      </div>
-
-      {/* image */}
-      <div className="relative bg-gray-50">
-        <img
-          src={oil2}
-          alt="Luvierra Sulfate‑Free Shampoo"
-          className="h-64 w-full object-cover rounded-none"
-          loading="lazy"
-        />
-        {/* rating */}
-        <div className="absolute bottom-2 right-2 rounded-full bg-white/95 px-2 py-1 text-xs font-semibold shadow">
-          4.8★
-        </div>
-      </div>
-
-      {/* body */}
-      <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
-
-        <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
-        </h3>
-
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
-
-        {/* price row */}
-        <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹546</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
+          <span className="text-xl font-semibold text-gray-900">₹699</span>
           
         </div>
       </div>
@@ -336,10 +207,60 @@ const Hair = () => {
         </span>
       </div>
 
-      {/* image */}
+      {/* image 4*/}
       <div className="relative bg-gray-50">
         <img
-          src={serum2}
+          src={skin4}
+          alt="Luvierra Sulfate‑Free Shampoo"
+          className="h-64 w-full object-cover rounded-none"
+          loading="lazy"
+        />
+        {/* rating */}
+        <div className="absolute bottom-2 right-2 rounded-full bg-white/95 px-2 py-1 text-xs font-semibold shadow">
+          4.9★
+        </div>
+      </div>
+
+      {/* body */}
+      <div className="p-4">
+        <p className="text-[11px] font-semibold text-emerald-600">New Stock</p>
+
+        <h3 className="mt-1 text-base font-semibold text-gray-900">
+          Charcoal Detox Mask	
+        </h3>
+
+        <p className="mt-1 text-sm text-gray-500">Deep pore detox</p>
+        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+
+        {/* price row */}
+        <div className="mt-2 flex items-baseline gap-2">
+          <span className="text-xl font-semibold text-gray-900">₹429</span>
+          <span className="text-sm text-gray-400 line-through">₹550</span>
+          <span className="text-sm font-medium text-green-600">(10% OFF)</span>
+        </div>
+      </div>
+
+      {/* full-width CTA with square edges */}
+      <button
+        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+        onClick={() => console.log("add-to-cart", "luvierra-combo")}
+      >
+        Add to cart
+      </button>
+    </div>
+
+    <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
+      {/* ribbon */}
+      <div className="absolute m-3">
+        <span className="rounded-md bg-emerald-600 px-2.5 py-1 text-xs font-medium text-white">
+          FLAT30%OFF
+        </span>
+      </div>
+
+      {/* image 5*/}
+      <div className="relative bg-gray-50">
+        <img
+          src={skin5}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -352,19 +273,118 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-       
+        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Vitamin C Mask
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
+        <p className="mt-1 text-sm text-gray-500">Brighten, even complexion</p>
         <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹344</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
+          <span className="text-xl font-semibold text-gray-900">₹458</span>
+          
+        </div>
+      </div>
+
+      {/* full-width CTA with square edges */}
+      <button
+        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+        onClick={() => console.log("add-to-cart", "luvierra-combo")}
+      >
+        Add to cart
+      </button>
+    </div>
+
+    <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
+      {/* ribbon */}
+      <div className="absolute m-3">
+        <span className="rounded-md bg-emerald-600 px-2.5 py-1 text-xs font-medium text-white">
+          FLAT30%OFF
+        </span>
+      </div>
+
+      {/* image 6*/}
+      <div className="relative bg-gray-50">
+        <img
+          src={skin6}
+          alt="Luvierra Sulfate‑Free Shampoo"
+          className="h-64 w-full object-cover rounded-none"
+          loading="lazy"
+        />
+        {/* rating */}
+        <div className="absolute bottom-2 right-2 rounded-full bg-white/95 px-2 py-1 text-xs font-semibold shadow">
+          4.1★
+        </div>
+      </div>
+
+      {/* body */}
+      <div className="p-4">
+        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+
+        <h3 className="mt-1 text-base font-semibold text-gray-900">
+          Lavender Night Cream
+        </h3>
+
+        <p className="mt-1 text-sm text-gray-500">Soothes, calms skin</p>
+        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+
+        {/* price row */}
+        <div className="mt-2 flex items-baseline gap-2">
+          <span className="text-xl font-semibold text-gray-900">₹469</span>
+          <span className="text-sm text-gray-400 line-through">₹550</span>
+          
+        </div>
+      </div>
+
+      {/* full-width CTA with square edges */}
+      <button
+        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+        onClick={() => console.log("add-to-cart", "luvierra-combo")}
+      >
+        Add to cart
+      </button>
+    </div>
+
+    <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
+      {/* ribbon */}
+      <div className="absolute m-3">
+        <span className="rounded-md bg-emerald-600 px-2.5 py-1 text-xs font-medium text-white">
+          FLAT30%OFF
+        </span>
+      </div>
+
+      {/* image 7*/}
+      <div className="relative bg-gray-50">
+        <img
+          src={skin7}
+          alt="Luvierra Sulfate‑Free Shampoo"
+          className="h-64 w-full object-cover rounded-none"
+          loading="lazy"
+        />
+        {/* rating */}
+        <div className="absolute bottom-2 right-2 rounded-full bg-white/95 px-2 py-1 text-xs font-semibold shadow">
+          4.4★
+        </div>
+      </div>
+
+      {/* body */}
+      <div className="p-4">
+       <p className="text-[11px] font-semibold text-emerald-600">Just In</p>
+
+        <h3 className="mt-1 text-base font-semibold text-gray-900">
+         Vitamin C Serum
+        </h3>
+
+        <p className="mt-1 text-sm text-gray-500">Radiance, glow boost</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Units</p>
+
+        {/* price row */}
+        <div className="mt-2 flex items-baseline gap-2">
+          <span className="text-xl font-semibold text-gray-900">₹545</span>
+       
          
         </div>
       </div>
@@ -386,10 +406,10 @@ const Hair = () => {
         </span>
       </div>
 
-      {/* image */}
+      {/* image 8*/}
       <div className="relative bg-gray-50">
         <img
-          src={mask2}
+          src={skin8}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -402,20 +422,20 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        
+        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          24K Gold Serum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
+        <p className="mt-1 text-sm text-gray-500">Brighten, firm skin</p>
         <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹702</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹742</span>
+          <span className="text-sm text-gray-400 line-through">₹850</span>
+          <span className="text-sm font-medium text-green-600">(20% OFF)</span>
         </div>
       </div>
 
@@ -436,10 +456,10 @@ const Hair = () => {
         </span>
       </div>
 
-      {/* image */}
+      {/* image 9*/}
       <div className="relative bg-gray-50">
         <img
-          src={shampoo3}
+          src={skin9}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -452,20 +472,19 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+        <p className="text-[11px] font-semibold text-emerald-600">Just In</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Strawberry Lip Balm
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Soft, supple lips</p>
+        <p className="text-xs text-gray-400 mt-0.5">3 Units</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹640</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹440</span>
+          
         </div>
       </div>
 
@@ -486,10 +505,10 @@ const Hair = () => {
         </span>
       </div>
 
-      {/* image */}
+      {/* image 10 */}
       <div className="relative bg-gray-50">
         <img
-          src={oil3}
+          src={skin10}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -502,20 +521,20 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+        <p className="text-[11px] font-semibold text-emerald-600">Just In</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Daily Sunscreen Cream	
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Protects from sun</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Units</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹345</span>
+          <span className="text-xl font-semibold text-gray-900">₹545</span>
           <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-sm font-medium text-green-600">(20% OFF)</span>
         </div>
       </div>
 
@@ -536,35 +555,35 @@ const Hair = () => {
         </span>
       </div>
 
-      {/* image */}
+      {/* image 11*/}
       <div className="relative bg-gray-50">
         <img
-          src={serum2}
+          src={skin11}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
         />
         {/* rating */}
         <div className="absolute bottom-2 right-2 rounded-full bg-white/95 px-2 py-1 text-xs font-semibold shadow">
-          4.0★
+          4.6★
         </div>
       </div>
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+        <p className="text-[11px] font-semibold text-emerald-600">New Trending</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Facial Essence Toner	
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Soothe, hydrate, replenish</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Units</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹544</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
+          <span className="text-xl font-semibold text-gray-900">₹745</span>
+          <span className="text-sm text-gray-400 line-through">₹850</span>
           <span className="text-sm font-medium text-green-600">(30% OFF)</span>
         </div>
       </div>
@@ -586,10 +605,10 @@ const Hair = () => {
         </span>
       </div>
 
-      {/* image */}
+      {/* image 12*/}
       <div className="relative bg-gray-50">
         <img
-          src={mask3}
+          src={skin12}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -602,20 +621,20 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+        <p className="text-[11px] font-semibold text-emerald-600">Just In</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Berry Night Cream
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Anti-aging, repairs skin</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Units</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹592</span>
+          <span className="text-xl font-semibold text-gray-900">₹492</span>
           <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-sm font-medium text-green-600">(45% OFF)</span>
         </div>
       </div>
 
@@ -636,10 +655,10 @@ const Hair = () => {
         </span>
       </div>
 
-      {/* image */}
+      {/* image 13*/}
       <div className="relative bg-gray-50">
         <img
-          src={shampoo4}
+          src={skin13}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -652,20 +671,19 @@ const Hair = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+        <p className="text-[11px] font-semibold text-emerald-600">Just In</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Anti-Acne Clay
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Prevents acne breakouts</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Units</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹612</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹662</span>
+        
         </div>
       </div>
 
@@ -685,10 +703,10 @@ const Hair = () => {
         </span>
       </div>
 
-      {/* image */}
+      {/* image 14*/}
       <div className="relative bg-gray-50">
         <img
-          src={oil4}
+          src={skin14}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -704,10 +722,10 @@ const Hair = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Lotus Face Toner
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
+        <p className="mt-1 text-sm text-gray-500">Refresh, balance skin</p>
         <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
 
         {/* price row */}
@@ -734,17 +752,17 @@ const Hair = () => {
         </span>
       </div>
 
-      {/* image */}
+      {/* image 15*/}
       <div className="relative bg-gray-50">
         <img
-          src={conditioner}
+          src={skin15}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
         />
         {/* rating */}
         <div className="absolute bottom-2 right-2 rounded-full bg-white/95 px-2 py-1 text-xs font-semibold shadow">
-          4.6★
+          4.8★
         </div>
       </div>
 
@@ -753,17 +771,16 @@ const Hair = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+         Papaya Facial Scrub
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Exfoliate, renew skin</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Units</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹455</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹778</span>
+          
         </div>
       </div>
 
@@ -775,98 +792,88 @@ const Hair = () => {
         Add to cart
       </button>
     </div>
+     <div>
+          <img src={foo1} alt="" />
+        </div>
     </section>
 
 
 
 
   {/* footer */}
-  <footer className="bg-[#0e1a16] text-gray-200">
-      {/* top */}
-      <div className="mx-auto max-w-7xl px-6 py-12">
-        <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
-          {/* brand */}
-          <div className="max-w-sm">
-            <div className="flex items-center gap-3">
-              <img
-                src={logo}
-                alt="Luvierra"
-                className="h-10 w-10 object-contain rounded-none"
-              />
-              <span className="text-2xl font-semibold tracking-wide">Luvierra</span>
-            </div>
-            <p className="mt-4 text-sm text-gray-400">
-              Clean, science‑backed hair care for stronger strands and a calmer scalp.
-            </p>
+
+    <footer className="bg-gradient-to-tr from-pink-50 via-pink-100 to-rose-50">
+      <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
+          <div className="col-span-2">
+            <img 
+              src={bg1} 
+              alt="Skincare Brand Logo" 
+              className="h-12 w-auto " 
+            />
           </div>
-
-          {/* columns */}
-          <div className="grid grid-cols-2 gap-10 sm:grid-cols-3 lg:grid-cols-4">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-widest text-emerald-300">
-                Company
-              </p>
-              <ul className="mt-4 space-y-3 text-sm">
-                <li><a className="hover:text-white" href="#">About</a></li>
-                <li><a className="hover:text-white" href="#">Careers</a></li>
-                <li><a className="hover:text-white" href="#">Press</a></li>
+          
+          {footerLinks.map((section) => (
+            <div key={section.title} className="col-span-1">
+              <h3 className="text-sm font-bold tracking-wider mb-4 uppercase text-black-400">
+                {section.title}
+              </h3>
+              <ul className="space-y-3">
+                {section.links.map((link) => (
+                  <li key={link.name}>
+                    <span 
+                      className="text-sm hover:text-green-600 transition duration-150 ease-in-out cursor-pointer"
+                    >
+                      {link.name}
+                    </span>
+                  </li>
+                ))}
               </ul>
             </div>
+          ))}
 
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-widest text-emerald-300">
-                Hair Care
-              </p>
-              <ul className="mt-4 space-y-3 text-sm">
-                <li><a className="hover:text-white" href="#">Shampoos</a></li>
-                <li><a className="hover:text-white" href="#">Conditioners</a></li>
-                <li><a className="hover:text-white" href="#">Serums & Oils</a></li>
-                <li><a className="hover:text-white" href="#">Treatments</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-widest text-emerald-300">
-                Support
-              </p>
-              <ul className="mt-4 space-y-3 text-sm">
-                <li><a className="hover:text-white" href="#">Help Center</a></li>
-                <li><a className="hover:text-white" href="#">Shipping & Returns</a></li>
-                <li><a className="hover:text-white" href="#">Track Order</a></li>
-                <li><a className="hover:text-white" href="#">Contact Us</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-widest text-emerald-300">
-                Follow
-              </p>
-              <div className="mt-4 flex items-center gap-3">
-                <a className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/10 hover:bg-white/20" href="#" aria-label="Instagram">IG</a>
-                <a className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/10 hover:bg-white/20" href="#" aria-label="X">X</a>
-                <a className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/10 hover:bg-white/20" href="#" aria-label="Facebook">f</a>
-              </div>
-            </div>
+          <div className="col-span-2 md:col-span-1 flex justify-end space-x-4">
+            <span
+              aria-label="Instagram"
+              className="w-10 h-10 flex items-center justify-center rounded-full bg-black-200 text-black-800 hover:bg-green-300 transition duration-150 ease-in-out cursor-pointer"
+            >
+              <FaInstagram className="text-xl" />
+            </span>
+            <span
+              aria-label="Facebook"
+              className="w-10 h-10 flex items-center justify-center rounded-full bg-black-200 text-black-800 hover:bg-green-300 transition duration-150 ease-in-out cursor-pointer"
+            >
+              <FaFacebookF className="text-xl" />
+            </span>
+            <span
+              aria-label="Pinterest"
+              className="w-10 h-10 flex items-center justify-center rounded-full bg-black-200 text-black-800 hover:bg-green-300 transition duration-150 ease-in-out cursor-pointer"
+            >
+              <FaPinterestP className="text-xl" />
+            </span>
           </div>
         </div>
 
-        {/* divider */}
-        <div className="mt-10 h-px w-full bg-white/10" />
+        <hr className="my-8 border-green-200" />
 
-        {/* bottom row */}
-        <div className="mt-6 flex flex-col items-start justify-between gap-4 text-xs text-gray-400 md:flex-row">
-          <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
-            <a href="#" className="hover:text-white">Legal</a>
-            <a href="#" className="hover:text-white">Privacy</a>
-            <a href="#" className="hover:text-white">Cookies</a>
-            <a href="#" className="hover:text-white">Accessibility</a>
+        <div className="flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+          <div className="flex flex-wrap space-x-4 mb-4 md:mb-0">
+            <span className="hover:text-green-600 cursor-pointer">Legal</span>
+            <span className="hover:text-green-600 cursor-pointer">Privacy Policy</span>
+            <span className="hover:text-green-600 cursor-pointer">Cookies</span>
+            <span className="hover:text-green-600 cursor-pointer">Accessibility</span>
           </div>
-          <p>© {new Date().getFullYear()} Luvierra Hair Care</p>
+
+          <div className="flex space-x-4 items-center">
+            <span>© {new Date().getFullYear()} Skincare Brand. All rights reserved.</span>
+            <span className="ml-4 flex items-center text-green-700 font-medium">
+                <span role="img" aria-label="globe">🌎</span>
+                <span className="ml-1">USA (English)</span>
+            </span>
+          </div>
         </div>
       </div>
     </footer>
-
-    
   
 
 
