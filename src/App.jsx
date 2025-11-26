@@ -14,6 +14,7 @@ import Makeup from './components/Makeup';
 
 import Skin from './components/Skin';
 import Combos from './components/Combos';
+import ScrollToTop from './components/ScrollToTop';
 
 
 
@@ -21,6 +22,8 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
+
+      <ScrollToTop />
   <Navbar />
   <Routes>
     <Route path="/" element={<Home />} />

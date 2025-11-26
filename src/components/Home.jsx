@@ -17,7 +17,7 @@ import fragrances from "../assets/images/fragrances.jpg";
 import { FaInstagram, FaFacebookF, FaPinterestP } from 'react-icons/fa';
 import bg1 from '../assets/images/bg1-removebg-preview.png'
 import foo1 from '../assets/images/foo1.png'
-
+import { Link } from "react-router-dom";
 
 
 
@@ -25,12 +25,12 @@ const Home = () => {
 
 
   const items = [
-    { title: "Bestsellers", img: bestsellers },
-    { title: "Hair Care", img: hairCare },
-    { title: "Skin Care", img: skinCare },
-    { title: "Makeup", img: makeup },
-    { title: "Combos", img: combos },
-    { title: "Fragrances", img: fragrances },
+    { title: "Bestsellers", img: bestsellers, path: "/bestsellers" },
+    { title: "Hair Care", img: hairCare, path: "/haircare"},
+    { title: "Skin Care", img: skinCare, path: "/skincare" },
+    { title: "Makeup", img: makeup, path: "/makeup" },
+    { title: "Combos", img: combos,path: "/kits-combos" },
+    { title: "Fragrances", img: fragrances, path: "/fragrances" },
   
     
   ];
@@ -228,10 +228,10 @@ const footerLinks = [
 
 
                      <br /><br />
-              {/* shop by categories */}
+{/* shop by categories */}
 
 
-               <div className="text-center py-10 bg-white">
+    {/* <div className="text-center py-10 bg-white">
       <h2 className="text-3xl font-bold mb-8">Shop By Categories</h2>
 
       <div className="flex flex-wrap justify-center gap-6 px-4">
@@ -245,7 +245,22 @@ const footerLinks = [
           </div>
         ))}
       </div>
-    </div>
+    </div> */}
+
+    <div className="text-center py-10 bg-white">
+  <h2 className="text-3xl font-bold mb-8">Shop By Categories</h2>
+
+  <div className="flex flex-wrap justify-center gap-6 px-4">
+    {items.map((item, i) => (
+      <Link key={i} to={item.path}>
+        <div className="w-40 md:w-48 bg-white rounded-xl shadow hover:shadow-lg transition duration-300 overflow-hidden cursor-pointer">
+          <img src={item.img} alt={item.title} className="w-full h-44 object-cover" />
+          <p className="py-2 font-semibold">{item.title}</p>
+        </div>
+      </Link>
+    ))}
+  </div>
+</div>
 
                      
          <br /><br /><br />
