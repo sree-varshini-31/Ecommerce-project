@@ -1,6 +1,6 @@
 import React from 'react'
 import care from '../assets/images/Untitled Project (2).jpg'
-
+import combopage from '../assets/images/combopage.jpg'
 import { FaInstagram, FaFacebookF, FaPinterestP } from 'react-icons/fa';
 import bg1 from '../assets/images/bg1-removebg-preview.png'
 import foo1 from '../assets/images/foo1.png'
@@ -47,7 +47,7 @@ const Hair = () => {
 
   return (
     <div>
-        <img src={care} alt="" />
+        <img src={combopage} alt="" className="w-full h-auto"/>
         <br />
         {/* 1st parent product card */}
     <section className="flex flex-row flex-wrap items-start justify-evenly gap-x-4 gap-y-6">

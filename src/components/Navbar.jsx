@@ -13,6 +13,7 @@ const Navbar = () => {
       {/* Menu Links */}
       <ul className="flex space-x-8 text-lg font-semibold font-[Poppins] text-black">
   {[
+     { name: "Home", path: "/home" },
     { name: "Bestsellers", path: "/bestsellers" },
     { name: "Skin Care", path: "/skincare" },
     { name: "Hair Care", path: "/haircare" },

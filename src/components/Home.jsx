@@ -68,7 +68,7 @@ const footerLinks = [
   return (
     <div>
 
-         <img src={home1} alt="" className="w-full h-auto" />
+         {/* <img src={home1} alt="" className="w-full h-auto" /> */}
          <br /><br /><br />
           <section className="flex flex-row flex-wrap items-start justify-evenly gap-x-4 gap-y-6">
        
