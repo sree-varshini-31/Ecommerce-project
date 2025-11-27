@@ -2,6 +2,7 @@ import React from 'react'
 import home1 from "../assets/home1.jpg";
 import home2 from "../assets/home2.jpg";
 import home3 from "../assets/home3.jpg";
+import homepage1111 from "../assets/images/homepage1111.jpeg";
 import shampoo1 from "../assets/images/shampoo1.png";
 import serum1 from "../assets/images/serum1.png";
 import sunscreen from "../assets/images/sunscreen.jpg";
@@ -68,7 +69,7 @@ const footerLinks = [
   return (
     <div>
 
-         {/* <img src={home1} alt="" className="w-full h-auto" /> */}
+         <img src={homepage1111} alt="" className="w-full h-auto" />
          <br /><br /><br />
           <section className="flex flex-row flex-wrap items-start justify-evenly gap-x-4 gap-y-6">
        
