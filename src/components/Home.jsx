@@ -19,11 +19,11 @@ import { FaInstagram, FaFacebookF, FaPinterestP } from 'react-icons/fa';
 import bg1 from '../assets/images/bg1-removebg-preview.png'
 import foo1 from '../assets/images/foo1.png'
 import { Link } from "react-router-dom";
-
+import { useCart } from "./CartContext";
 
 
 const Home = () => {
-
+  const { addToCart } = useCart();
 
   const items = [
     { title: "Bestsellers", img: bestsellers, path: "/bestsellers" },
@@ -116,12 +116,12 @@ const footerLinks = [
                </div>
          
                {/* full-width CTA with square edges */}
-               <button
-                 className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                 onClick={() => console.log("add-to-cart", "luvierra-combo")}
-               >
-                 Add to cart
-               </button>
+              <button
+                className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+                onClick={addToCart}
+              >
+                Add to cart
+              </button>
              </div>
              
 {/* image2 */}
@@ -168,11 +168,11 @@ const footerLinks = [
          
                {/* full-width CTA with square edges */}
                <button
-                 className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                 onClick={() => console.log("add-to-cart", "luvierra-combo")}
-               >
-                 Add to cart
-               </button>
+                className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+                onClick={addToCart}
+              >
+                Add to cart
+              </button>
              </div>
 
              {/* image3 */}
@@ -218,12 +218,12 @@ const footerLinks = [
                </div>
          
                {/* full-width CTA with square edges */}
-               <button
-                 className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                 onClick={() => console.log("add-to-cart", "luvierra-combo")}
-               >
-                 Add to cart
-               </button>
+              <button
+              className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+              onClick={addToCart}
+            >
+              Add to cart
+            </button>
              </div>
                      </section>
 
@@ -319,11 +319,11 @@ const footerLinks = [
          
                {/* full-width CTA with square edges */}
                <button
-                 className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                 onClick={() => console.log("add-to-cart", "luvierra-combo")}
-               >
-                 Add to cart
-               </button>
+              className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+              onClick={addToCart}
+            >
+              Add to cart
+            </button>
              </div>
              
 {/* image2 */}
@@ -369,12 +369,12 @@ const footerLinks = [
                </div>
          
                {/* full-width CTA with square edges */}
-               <button
-                 className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                 onClick={() => console.log("add-to-cart", "luvierra-combo")}
-               >
-                 Add to cart
-               </button>
+              <button
+              className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+              onClick={addToCart}
+            >
+              Add to cart
+              </button>
              </div>
 
              {/* image3 */}
@@ -420,12 +420,12 @@ const footerLinks = [
                </div>
          
                {/* full-width CTA with square edges */}
-               <button
-                 className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                 onClick={() => console.log("add-to-cart", "luvierra-combo")}
-               >
-                 Add to cart
-               </button>
+              <button
+                className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+                onClick={addToCart}
+              >
+                Add to cart
+              </button>
              </div>
                      </section2>
 

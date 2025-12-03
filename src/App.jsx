@@ -1,6 +1,8 @@
 import React from 'react'
 import {Route,Routes,BrowserRouter} from "react-router-dom"
 
+
+
 import Register from './components/Register'
 import './index.css';
 import Navbar from './components/Navbar';
@@ -15,13 +17,18 @@ import Makeup from './components/Makeup';
 import Skin from './components/Skin';
 import Combos from './components/Combos';
 import ScrollToTop from './components/ScrollToTop';
+<<<<<<< HEAD
 import Login from './components/Login';
+=======
+import { CartProvider } from "./components/CartContext";
+>>>>>>> dc02d2a6167e29fe39b3c18f0e3cd6f7b7ea0ff8
 
 
 
 const App = () => {
   return (
     <div>
+      <CartProvider>
       <BrowserRouter>
 
       <ScrollToTop />
@@ -38,6 +45,7 @@ const App = () => {
     <Route path="/login" element={<Register />} />
 
     
+    
 
   </Routes>
 </BrowserRouter>
@@ -51,11 +59,11 @@ const App = () => {
       {/* <Combos /> */}
       {/* <Hair />  */}
       {/* <Makeup /> */}
-      {/* <Fragrances /> */}
+      <Fragrances />
       {/* <Best /> */}
       <Login/>
       
-
+    </CartProvider>
     </div>
   )
 }

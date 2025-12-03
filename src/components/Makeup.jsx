@@ -15,7 +15,7 @@ import makeup12 from '../assets/images/makeup12.png';
 import makeup13 from '../assets/images/makeup13.png';
 import makeup14 from '../assets/images/makeup14.png';
 import makeup15 from '../assets/images/makeup15.png';
-
+import { useCart } from "./CartContext";
 
 import { FaInstagram, FaFacebookF, FaPinterestP } from 'react-icons/fa';
 import bg1 from '../assets/images/bg1-removebg-preview.png'
@@ -24,6 +24,7 @@ import foo1 from '../assets/images/foo1.png'
 
 
 const Makeup = () => {
+  const { addToCart } = useCart();
   const footerLinks = [
     {
       title: 'COMPANY',
@@ -101,12 +102,12 @@ const Makeup = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
+     <button
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+      onClick={addToCart}
+  >
+  Add to cart
+  </button>
     </div>
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
       {/* ribbon */}
@@ -150,12 +151,12 @@ const Makeup = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
+     <button
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+      onClick={addToCart}
+  >
+  Add to cart
+  </button>
     </div>
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
       {/* ribbon */}
@@ -200,11 +201,11 @@ const Makeup = () => {
 
       {/* full-width CTA with square edges */}
       <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+      onClick={addToCart}
+  >
+  Add to cart
+  </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -249,12 +250,12 @@ const Makeup = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
+     <button
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+      onClick={addToCart}
+  >
+  Add to cart
+  </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -300,11 +301,11 @@ const Makeup = () => {
 
       {/* full-width CTA with square edges */}
       <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+      onClick={addToCart}
+  >
+  Add to cart
+  </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -349,12 +350,12 @@ const Makeup = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
+     <button
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+      onClick={addToCart}
+  >
+  Add to cart
+  </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -400,11 +401,11 @@ const Makeup = () => {
 
       {/* full-width CTA with square edges */}
       <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+      onClick={addToCart}
+  >
+  Add to cart
+  </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -450,11 +451,11 @@ const Makeup = () => {
 
       {/* full-width CTA with square edges */}
       <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+      onClick={addToCart}
+  >
+  Add to cart
+  </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -499,12 +500,12 @@ const Makeup = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
+     <button
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+      onClick={addToCart}
+  >
+  Add to cart
+  </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -549,12 +550,12 @@ const Makeup = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
+     <button
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+      onClick={addToCart}
+  >
+  Add to cart
+  </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -600,11 +601,11 @@ const Makeup = () => {
 
       {/* full-width CTA with square edges */}
       <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+      onClick={addToCart}
+  >
+  Add to cart
+  </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -649,12 +650,12 @@ const Makeup = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
+     <button
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+      onClick={addToCart}
+  >
+  Add to cart
+  </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -699,12 +700,12 @@ const Makeup = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
+     <button
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+      onClick={addToCart}
+  >
+  Add to cart
+  </button>
     </div>
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
       {/* ribbon */}
@@ -749,11 +750,11 @@ const Makeup = () => {
 
       {/* full-width CTA with square edges */}
       <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+      onClick={addToCart}
+  >
+  Add to cart
+  </button>
     </div>
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
       {/* ribbon */}
@@ -798,11 +799,11 @@ const Makeup = () => {
 
       {/* full-width CTA with square edges */}
       <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={() => console.log("add-to-cart", "luvierra-combo")}
-      >
-        Add to cart
-      </button>
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
+      onClick={addToCart}
+  >
+  Add to cart
+  </button>
     </div>
     <div>
       <img src={foo1} alt="" />
