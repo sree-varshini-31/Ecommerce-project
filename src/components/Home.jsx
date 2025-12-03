@@ -19,11 +19,11 @@ import { FaInstagram, FaFacebookF, FaPinterestP } from 'react-icons/fa';
 import bg1 from '../assets/images/bg1-removebg-preview.png'
 import foo1 from '../assets/images/foo1.png'
 import { Link } from "react-router-dom";
-
+import { useCart } from "./CartContext";
 
 
 const Home = () => {
-
+  const { addToCart } = useCart();
 
   const items = [
     { title: "Bestsellers", img: bestsellers, path: "/bestsellers" },

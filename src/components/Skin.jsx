@@ -18,10 +18,11 @@ import skin from  "../assets/Imagess/skin.png"
 import bg1 from "../assets/images/bg1-removebg-preview.png"
 import foo1 from "../assets/images/foo1.png"
 import { FaInstagram,  FaFacebookF, FaPinterestP } from "react-icons/fa";
-
+import { useCart } from "./CartContext";
 
 
 const Hair = () => {
+  const { addToCart } = useCart();
   const footerLinks = [
   {
     title: "Products",

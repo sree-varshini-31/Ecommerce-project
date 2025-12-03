@@ -1,6 +1,8 @@
 import React from 'react'
 import {Route,Routes,BrowserRouter} from "react-router-dom"
 
+
+
 import Register from './components/Register'
 import './index.css';
 import Navbar from './components/Navbar';
@@ -15,12 +17,14 @@ import Makeup from './components/Makeup';
 import Skin from './components/Skin';
 import Combos from './components/Combos';
 import ScrollToTop from './components/ScrollToTop';
+import { CartProvider } from "./components/CartContext";
 
 
 
 const App = () => {
   return (
     <div>
+      <CartProvider>
       <BrowserRouter>
 
       <ScrollToTop />
@@ -35,6 +39,7 @@ const App = () => {
     <Route path="/bestsellers" element={<Best />} />
     <Route path="/kits-combos" element={<Combos />} />
     <Route path="/login" element={<Register />} />
+    
     
 
   </Routes>
@@ -52,7 +57,7 @@ const App = () => {
       <Fragrances />
       {/* <Best /> */}
       
-
+    </CartProvider>
     </div>
   )
 }

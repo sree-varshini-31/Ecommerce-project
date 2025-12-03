@@ -13,10 +13,11 @@ import combos4 from '../assets/images/combos4.png'
 import combos5 from '../assets/images/combos5.png'
 import combos6 from '../assets/images/combos6.png'
 import combos7 from '../assets/images/combos7.png'
-
+import { useCart } from "./CartContext";
 
 
 const Best = () => {
+   const { addToCart } = useCart();
   const footerLinks = [
     {
       title: 'COMPANY',

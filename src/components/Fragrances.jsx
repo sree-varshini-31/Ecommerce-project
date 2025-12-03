@@ -15,7 +15,7 @@ import perfume12 from '../assets/images/perfume12.jpg';
 import perfume13 from '../assets/images/perfume13.jpg';
 import perfume14 from '../assets/images/perfume14.jpg';
 import perfume15 from '../assets/images/perfume15.jpg';
-
+import { useCart } from "./CartContext";
 import { FaInstagram, FaFacebookF, FaPinterestP } from 'react-icons/fa';
 import bg1 from '../assets/images/bg1-removebg-preview.png'
 import foo1 from '../assets/images/foo1.png'
@@ -23,6 +23,7 @@ import foo1 from '../assets/images/foo1.png'
 
 
 const Fragrances = () => {
+  const { addToCart } = useCart();
   const footerLinks = [
     {
       title: 'COMPANY',

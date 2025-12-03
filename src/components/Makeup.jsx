@@ -15,7 +15,7 @@ import makeup12 from '../assets/images/makeup12.png';
 import makeup13 from '../assets/images/makeup13.png';
 import makeup14 from '../assets/images/makeup14.png';
 import makeup15 from '../assets/images/makeup15.png';
-
+import { useCart } from "./CartContext";
 
 import { FaInstagram, FaFacebookF, FaPinterestP } from 'react-icons/fa';
 import bg1 from '../assets/images/bg1-removebg-preview.png'
@@ -24,6 +24,7 @@ import foo1 from '../assets/images/foo1.png'
 
 
 const Makeup = () => {
+  const { addToCart } = useCart();
   const footerLinks = [
     {
       title: 'COMPANY',
