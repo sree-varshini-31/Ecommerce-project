@@ -49,7 +49,7 @@ const App = () => {
       {/* <Combos /> */}
       {/* <Hair />  */}
       {/* <Makeup /> */}
-      {/* <Fragrances /> */}
+      <Fragrances />
       {/* <Best /> */}
       
 

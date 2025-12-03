@@ -85,17 +85,17 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+           Luvierra Pure Essence Eau De parfum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
+        <p className="mt-1 text-sm text-gray-500">An understated elegance perfect for a refined everyday</p>
         <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹455</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹1,299</span>
+          <span className="text-sm text-gray-400 line-through">₹1732</span>
+          <span className="text-sm font-medium text-green-600">(25% OFF)</span>
         </div>
       </div>
 
@@ -134,16 +134,16 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+            Luvierra Violet Haze Eau De parfum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">A mysterious sophisticated and alluring fragrance</p>
+        <p className="text-xs text-gray-400 mt-0.5">1unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹345</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
+          <span className="text-xl font-semibold text-gray-900">₹1,925</span>
+          <span className="text-sm text-gray-400 line-through">₹2,750</span>
           <span className="text-sm font-medium text-green-600">(30% OFF)</span>
         </div>
       </div>
@@ -183,17 +183,17 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+           Luvierra Azure Dream infused with Blue Lotus Eau De parfum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">A serene fragrance that evokes peaceful dreams and boundless skies</p>
+        <p className="text-xs text-gray-400 mt-0.5">1unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
           <span className="text-xl font-semibold text-gray-900">₹399</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-sm text-gray-400 line-through">₹999</span>
+          <span className="text-sm font-medium text-green-600">(60% OFF)</span>
         </div>
       </div>
 
@@ -233,17 +233,17 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+       Luvierra Rose Petal & Oud Eau De parfum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">A Romantic Long-Lasting Fragrance</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹429</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹999</span>
+          <span className="text-sm text-gray-400 line-through">₹1332</span>
+          <span className="text-sm font-medium text-green-600">(25% OFF)</span>
         </div>
       </div>
 
@@ -283,17 +283,17 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+             Luvierra Golden Elixir Eau De parfum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">An opulent and long-lasting scent that leaves a sensual sweet trail</p>
+        <p className="text-xs text-gray-400 mt-0.5">1unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹358</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹1050</span>
+          <span className="text-sm text-gray-400 line-through">₹1313</span>
+          <span className="text-sm font-medium text-green-600">(20% OFF)</span>
         </div>
       </div>
 
@@ -333,16 +333,16 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+           Luvierra jasmine & Sandalwood EDP
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">A Warm Elegant and Timeless Scent</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹546</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
+          <span className="text-xl font-semibold text-gray-900">₹499</span>
+          {/* <span className="text-sm text-gray-400 line-through">₹650</span> */}
           
         </div>
       </div>
@@ -383,16 +383,16 @@ const Fragrances = () => {
        
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+            Luvierra Golden Charm Eau De perfum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Captivating & Sophisticated</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹344</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
+          <span className="text-xl font-semibold text-gray-900">₹599</span>
+          {/* <span className="text-sm text-gray-400 line-through">₹650</span> */}
          
         </div>
       </div>
@@ -433,17 +433,17 @@ const Fragrances = () => {
         
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+           Luvierra Sillage Bleu Eau De parfum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Fresh Aquatic & White Floral Blend</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹702</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹900</span>
+          <span className="text-sm text-gray-400 line-through">₹1125</span>
+          <span className="text-sm font-medium text-green-600">(20% OFF)</span>
         </div>
       </div>
 
@@ -483,17 +483,17 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+           Luvierra Ocean Breeze Eau De parfum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Refreshing Aquatic & Coastal Essence</p>
+        <p className="text-xs text-gray-400 mt-0.5">1Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹640</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹1,988</span>
+          <span className="text-sm text-gray-400 line-through">₹2,650</span>
+          <span className="text-sm font-medium text-green-600">(25% OFF)</span>
         </div>
       </div>
 
@@ -533,16 +533,16 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+           Luvierra Dreamy Blossom Eau De parfum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Soft Floral & Fruity Sweetness combo</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹345</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
+          <span className="text-xl font-semibold text-gray-900">₹1,399</span>
+          <span className="text-sm text-gray-400 line-through">₹1,999</span>
           <span className="text-sm font-medium text-green-600">(30% OFF)</span>
         </div>
       </div>
@@ -583,16 +583,16 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+           Luvierra Green Meadow Eau De parfum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Fresh Green & Wild Floral Essence combo</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹544</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
+          <span className="text-xl font-semibold text-gray-900">₹1,715</span>
+          <span className="text-sm text-gray-400 line-through">₹2,450</span>
           <span className="text-sm font-medium text-green-600">(30% OFF)</span>
         </div>
       </div>
@@ -633,17 +633,17 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+            Luvierra Sweet Rose Eau De parfum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Romantic Floral & Fruity Sweet combo</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹592</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹1552</span>
+          <span className="text-sm text-gray-400 line-through">₹1940</span>
+          <span className="text-sm font-medium text-green-600">(20% OFF)</span>
         </div>
       </div>
 
@@ -683,16 +683,16 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+           Luvierra Fresh Eau De parfum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Airy Citrus & Clean Linen Notes Combo</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹612</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
+          <span className="text-xl font-semibold text-gray-900">₹1,285</span>
+          <span className="text-sm text-gray-400 line-through">₹1,836</span>
           <span className="text-sm font-medium text-green-600">(30% OFF)</span>
         </div>
       </div>
@@ -732,17 +732,17 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+            Luvierra Botanical Dew Eau De parfum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">A Fresh subtle Scent reminiScent of morning gardens</p>
+        <p className="text-xs text-gray-400 mt-0.5">1Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹512</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹1,463</span>
+          <span className="text-sm text-gray-400 line-through">₹1829</span>
+          <span className="text-sm font-medium text-green-600">(20% OFF)</span>
         </div>
       </div>
 
@@ -781,17 +781,17 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+           Luvierra Bella Blossom Eau De parfum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">A charming fragrance that celebrates feminine grace</p>
+        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹455</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹1,592</span>
+          <span className="text-sm text-gray-400 line-through">₹2449</span>
+          <span className="text-sm font-medium text-green-600">(35% OFF)</span>
         </div>
       </div>
 
