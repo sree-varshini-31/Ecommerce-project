@@ -15,6 +15,7 @@ import Makeup from './components/Makeup';
 import Skin from './components/Skin';
 import Combos from './components/Combos';
 import ScrollToTop from './components/ScrollToTop';
+import Login from './components/Login';
 
 
 
@@ -35,6 +36,7 @@ const App = () => {
     <Route path="/bestsellers" element={<Best />} />
     <Route path="/kits-combos" element={<Combos />} />
     <Route path="/login" element={<Register />} />
+
     
 
   </Routes>
@@ -51,6 +53,7 @@ const App = () => {
       {/* <Makeup /> */}
       {/* <Fragrances /> */}
       {/* <Best /> */}
+      <Login/>
       
 
     </div>
