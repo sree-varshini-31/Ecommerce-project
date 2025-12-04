@@ -56,9 +56,9 @@ const App = () => {
       {/* <Navbar/> */}
       {/* <Combos /> */}
       {/* <Hair />  */}
-      {/* <Makeup /> */}
-      <Fragrances />
-      {/* <Best /> */}
+      <Makeup />
+      {/* <Fragrances /> */}
+      <Best />
       {/* <Login/> */}
       
     </CartProvider>

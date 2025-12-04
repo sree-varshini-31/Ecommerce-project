@@ -5,15 +5,25 @@ import { FaInstagram, FaFacebookF, FaPinterestP } from 'react-icons/fa';
 import bg1 from '../assets/images/bg1-removebg-preview.png'
 import foo1 from '../assets/images/foo1.png'
 import best from '../assets/images/best.png'
-import combos from '../assets/images/combos.jpg'
-import combos1 from '../assets/images/combos1.jpg'
-import combos2 from '../assets/images/combos2.png'
-import combos3 from '../assets/images/combos3.png'
-import combos4 from '../assets/images/combos4.png'
-import combos5 from '../assets/images/combos5.png'
+// import combos from '../assets/images/combos.jpg'
+// import combos1 from '../assets/images/combos1.jpg'
+// import combos2 from '../assets/images/combos2.png'
+// import combos3 from '../assets/images/combos3.png'
+// import combos4 from '../assets/images/combos4.png'
+// import combos5 from '../assets/images/combos5.png'
 import combos6 from '../assets/images/combos6.png'
-import combos7 from '../assets/images/combos7.png'
+// import combos7 from '../assets/images/combos7.png'
 import { useCart } from "./CartContext";
+import sunscreen from '../assets/images/sunscreen.jpg'
+import oil2 from '../assets/images/oil2.png'
+import perfume4 from '../assets/images/perfume4.jpg'
+import shampoo1 from '../assets/images/shampoo1.png'
+import mask3 from '../assets/images/mask3.png'
+import serum7 from '../assets/images/serum7.jpg'
+import lipstic40 from '../assets/images/lipstic40.jpg'
+import foundation15 from '../assets/images/foundation15.jpg'
+
+
 
 
 const Best = () => {
@@ -64,7 +74,7 @@ const Best = () => {
       {/* image */}
       <div className="relative bg-gray-50">
         <img
-          src={combos}
+          src={sunscreen}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -80,17 +90,17 @@ const Best = () => {
        
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          GlowEssence Lip Velvet Lipstick Vitamin Serum Brightening Moisturizer Beauty Products 
+            Daily Sunscreen Cream	
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">give soft, smooth lips and naturally glowing skin</p>
+        <p className="mt-1 text-sm text-gray-500">protects from sun</p>
         <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹1350</span>
-          <span className="text-sm text-gray-400 line-through">₹1800</span>
-          <span className="text-sm font-medium text-green-600">(25% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹545</span>
+          <span className="text-sm text-gray-400 line-through">₹650</span>
+          <span className="text-sm font-medium text-green-600">(20% OFF)</span>
         </div>
       </div>
 
@@ -113,7 +123,7 @@ const Best = () => {
       {/* image */}
       <div className="relative bg-gray-50">
         <img
-          src={combos1}
+          src={oil2}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -129,17 +139,17 @@ const Best = () => {
         
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-           Ayura Radiant Hair Shine Serum Vitamin C Face Serum Skin Glow Cream Beauty Products
+        Argan oil
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Shiny hair and bright, hydrated skin</p>
+        <p className="mt-1 text-sm text-gray-500">>Reduces dandruff</p>
         <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹1100</span>
-          <span className="text-sm text-gray-400 line-through">₹2200</span>
-          <span className="text-sm font-medium text-green-600">(50% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹399</span>
+          {/* <span className="text-sm text-gray-400 line-through">₹2200</span> */}
+          {/* <span className="text-sm font-medium text-green-600">(50% OFF)</span> */}
         </div>
       </div>
 
@@ -162,7 +172,7 @@ const Best = () => {
       {/* image */}
       <div className="relative bg-gray-50">
         <img
-          src={combos2}
+          src={perfume4}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -178,17 +188,17 @@ const Best = () => {
         
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-        Rosemary Anti-Hairfall Shampoo, Anti-Hairfall Conditioner, and Anti-Hairfall Hair Mask 
+        Luvierra Rose petal parfum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Stimulates hair growth ,Reduces hair fall</p>
+        <p className="mt-1 text-sm text-gray-500">A romantic Long-Lasting Fragrance</p>
         <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
           <span className="text-xl font-semibold text-gray-900">₹999</span>
-          <span className="text-sm text-gray-400 line-through">₹1599</span>
-          <span className="text-sm font-medium text-green-600">(38% OFF)</span>
+          {/* <span className="text-sm text-gray-400 line-through">₹1599</span> */}
+          {/* <span className="text-sm font-medium text-green-600">(38% OFF)</span> */}
         </div>
       </div>
 
@@ -212,7 +222,7 @@ const Best = () => {
       {/* image */}
       <div className="relative bg-gray-50">
         <img
-          src={combos7}
+          src={shampoo1}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -228,17 +238,17 @@ const Best = () => {
         
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          BotaniGlow Green Tea Antioxidant Serum Mask Moisturizer Beauty Product
+           Sulphate Free shampoo
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Anti-ageing / Wrinkle defence</p>
+        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
         <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹1602</span>
-          <span className="text-sm text-gray-400 line-through">₹1950</span>
-          <span className="text-sm font-medium text-green-600">(18% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹445</span>
+          {/* <span className="text-sm text-gray-400 line-through">₹1950</span> */}
+          {/* <span className="text-sm font-medium text-green-600">(18% OFF)</span> */}
         </div>
       </div>
 
@@ -262,7 +272,7 @@ const Best = () => {
       {/* image */}
       <div className="relative bg-gray-50">
         <img
-          src={combos3}
+          src={mask3}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -278,17 +288,17 @@ const Best = () => {
 
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-        Tea Tree & Mint Shampoo Conditioner & Hair Mask
+         CalmCrown Anti-Dandruff Hair Mask
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Strengthens hair roots</p>
+        <p className="mt-1 text-sm text-gray-500">Soothing care for your scalp and hair</p>
         <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹1350</span>
-          <span className="text-sm text-gray-400 line-through">₹1700</span>
-          <span className="text-sm font-medium text-green-600">(20% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹499</span>
+          <span className="text-sm text-gray-400 line-through">₹849</span>
+          <span className="text-sm font-medium text-green-600">(41% OFF)</span>
         </div>
       </div>
 
@@ -312,7 +322,7 @@ const Best = () => {
       {/* image */}
       <div className="relative bg-gray-50">
         <img
-          src={combos5}
+          src={serum7}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -328,17 +338,17 @@ const Best = () => {
         
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-           VitaGlow Vitamin C Serum Brightening gel & Moisturizer
+           Vitminc serum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Antioxidant Protection</p>
+        <p className="mt-1 text-sm text-gray-500">Radiance glow boost</p>
         <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹850</span>
-          <span className="text-sm text-gray-400 line-through">₹1499</span>
-           <span className="text-sm font-medium text-green-600">(43% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹545</span>
+          {/* <span className="text-sm text-gray-400 line-through">₹1499</span> */}
+           {/* <span className="text-sm font-medium text-green-600">(43% OFF)</span> */}
         </div>
       </div>
 
@@ -362,7 +372,7 @@ const Best = () => {
       {/* image */}
       <div className="relative bg-gray-50">
         <img
-          src={combos4}
+          src={lipstic40}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -378,17 +388,17 @@ const Best = () => {
        
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          SilkKeratin Smooth Shampoo Conditioner & Hair Mask
+         Luvierra volvet matte lipstic
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Strengthens & Repairs Hair</p>
-        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
+        <p className="mt-1 text-sm text-gray-500">A smooth lipstic that gives a soft matte look</p>
+        <p className="text-xs text-gray-400 mt-0.5">3.5g</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹1049</span>
-          <span className="text-sm text-gray-400 line-through">₹1899</span>
-          <span className="text-sm font-medium text-green-600">(45% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹299</span>
+          <span className="text-sm text-gray-400 line-through">₹399</span>
+          <span className="text-sm font-medium text-green-600">(100% OFF)</span>
          
         </div>
       </div>
@@ -413,7 +423,7 @@ const Best = () => {
       {/* image */}
       <div className="relative bg-gray-50">
         <img
-          src={combos6}
+          src={foundation15}
           alt="Luvierra Sulfate‑Free Shampoo"
           className="h-64 w-full object-cover rounded-none"
           loading="lazy"
@@ -429,17 +439,17 @@ const Best = () => {
         
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rose & Hydratien Creamy Fash wash Hydratien Serum & Nature Glow Vitamin E Moisturizer
+         Luvierra natural glow foundation
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Deep Hydration & Softness</p>
-        <p className="text-xs text-gray-400 mt-0.5">1 Unit</p>
+        <p className="mt-1 text-sm text-gray-500">A foundation that gives a smooth glowing finish</p>
+        <p className="text-xs text-gray-400 mt-0.5">30ml</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹999</span>
-          <span className="text-sm text-gray-400 line-through">₹2099</span>
-          <span className="text-sm font-medium text-green-600">(52% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹429</span>
+          <span className="text-sm text-gray-400 line-through">₹549</span>
+          <span className="text-sm font-medium text-green-600">(120% OFF)</span>
         </div>
       </div>
 

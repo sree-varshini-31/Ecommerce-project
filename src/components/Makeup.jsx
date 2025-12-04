@@ -87,17 +87,17 @@ const Makeup = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Luvierra Radiant Glow Highlighter
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Gives a smooth and bright finish</p>
+        <p className="text-xs text-gray-400 mt-0.5">8g</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹455</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹399</span>
+          <span className="text-sm text-gray-400 line-through">₹499</span>
+          <span className="text-sm font-medium text-green-600">(20% OFF)</span>
         </div>
       </div>
 
@@ -136,16 +136,16 @@ const Makeup = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+         Luvierra Flawless Matte Compact Powder
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">Gives a smooth flawless matte finish that controlls shine</p>
+        <p className="text-xs text-gray-400 mt-0.5">9g</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹345</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
+          <span className="text-xl font-semibold text-gray-900">₹840</span>
+          <span className="text-sm text-gray-400 line-through">₹1200</span>
           <span className="text-sm font-medium text-green-600">(30% OFF)</span>
         </div>
       </div>
@@ -185,16 +185,16 @@ const Makeup = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+            Luvierra Radiance  illuminating Moisturizer
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">gives instant radiance witha soft illuminating glow</p>
+        <p className="text-xs text-gray-400 mt-0.5">30ml</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹399</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
+          <span className="text-xl font-semibold text-gray-900">₹629</span>
+          <span className="text-sm text-gray-400 line-through">₹899</span>
           <span className="text-sm font-medium text-green-600">(30% OFF)</span>
         </div>
       </div>
@@ -235,17 +235,17 @@ const Makeup = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+           Radient Dewy Finish setting spray
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">A spray that makes keeps meckeup stay longer </p>
+        <p className="text-xs text-gray-400 mt-0.5">100ml</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
           <span className="text-xl font-semibold text-gray-900">₹429</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-sm text-gray-400 line-through">₹699</span>
+          <span className="text-sm font-medium text-green-600">(38% OFF)</span>
         </div>
       </div>
 
@@ -285,17 +285,17 @@ const Makeup = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+         Luvierra matte liquid lipstick
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">A liquid lipstic that gives a soft matte look</p>
+        <p className="text-xs text-gray-400 mt-0.5">5ml</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹358</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹429</span>
+          <span className="text-sm text-gray-400 line-through">₹699</span>
+          <span className="text-sm font-medium text-green-600">(38% OFF)</span>
         </div>
       </div>
 
@@ -335,16 +335,16 @@ const Makeup = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+         Luvierra precision liquid Eyeliner
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">A sharp-tip eyeliner that gives smooth lines</p>
+        <p className="text-xs text-gray-400 mt-0.5">3ml</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹546</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
+          <span className="text-xl font-semibold text-gray-900">₹299</span>
+          {/* <span className="text-sm text-gray-400 line-through">₹650</span> */}
           
         </div>
       </div>
@@ -385,16 +385,16 @@ const Makeup = () => {
        
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+         Luvierra Volumizing Mascara
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">A mascara that makes your ilashes look fuller</p>
+        <p className="text-xs text-gray-400 mt-0.5">8ml</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹344</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
+          <span className="text-xl font-semibold text-gray-900">₹279</span>
+          {/* <span className="text-sm text-gray-400 line-through">₹650</span> */}
          
         </div>
       </div>
@@ -435,17 +435,17 @@ const Makeup = () => {
         
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+         Luvierra volvet matte lipstic
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500"> A smooth lipstic that gives a soft matte look</p>
+        <p className="text-xs text-gray-400 mt-0.5">3.5g</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹702</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹299</span>
+          <span className="text-sm text-gray-400 line-through">₹399</span>
+          <span className="text-sm font-medium text-green-600">(100% OFF)</span>
         </div>
       </div>
 
@@ -485,17 +485,17 @@ const Makeup = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Luvierra soft matte compact powder
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">A compact powder that gives a smooth finish</p>
+        <p className="text-xs text-gray-400 mt-0.5">12g</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹640</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹349</span>
+          <span className="text-sm text-gray-400 line-through">₹449</span>
+          <span className="text-sm font-medium text-green-600">(100% OFF)</span>
         </div>
       </div>
 
@@ -535,17 +535,17 @@ const Makeup = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Luvierra soft blur loose powder
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">A loose powder that gives a smooth  finish</p>
+        <p className="text-xs text-gray-400 mt-0.5">20g</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹345</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹379</span>
+          <span className="text-sm text-gray-400 line-through">₹449</span>
+          <span className="text-sm font-medium text-green-600">(120% OFF)</span>
         </div>
       </div>
 
@@ -585,17 +585,17 @@ const Makeup = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+         Luvierra  Natural glow foundation
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">A foundation that gives a smooth glowing finish</p>
+        <p className="text-xs text-gray-400 mt-0.5">30ml</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹544</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹429</span>
+          <span className="text-sm text-gray-400 line-through">₹549</span>
+          <span className="text-sm font-medium text-green-600">(120% OFF)</span>
         </div>
       </div>
 
@@ -635,17 +635,17 @@ const Makeup = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+         Luvierra liquid concealer
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">A lightweight concealer for smooth natural coverage</p>
+        <p className="text-xs text-gray-400 mt-0.5">15g</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹592</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹249</span>
+          <span className="text-sm text-gray-400 line-through">₹349</span>
+          <span className="text-sm font-medium text-green-600">(20% OFF)</span>
         </div>
       </div>
 
@@ -685,17 +685,17 @@ const Makeup = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+          Luvierra Radiance glow serum
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">A lightweight serum that gives a soft radiant glow</p>
+        <p className="text-xs text-gray-400 mt-0.5">30ml</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹612</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹449</span>
+          <span className="text-sm text-gray-400 line-through">₹699</span>
+          <span className="text-sm font-medium text-green-600">(28% OFF)</span>
         </div>
       </div>
 
@@ -734,17 +734,17 @@ const Makeup = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+         Luvierra smooth Glide lip crayon
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">A soft lip crayon that gives smooth rich color</p>
+        <p className="text-xs text-gray-400 mt-0.5">2.5g</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹512</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹199</span>
+          <span className="text-sm text-gray-400 line-through">₹299</span>
+          <span className="text-sm font-medium text-green-600">(33% OFF)</span>
         </div>
       </div>
 
@@ -783,17 +783,17 @@ const Makeup = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-          Rosemary Anti‑Hairfall Combo
+         Luvierra velvet shine lip gloss
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">Reduces Hairfall</p>
-        <p className="text-xs text-gray-400 mt-0.5">2 Units</p>
+        <p className="mt-1 text-sm text-gray-500">A glossy tint that gives smooth shine and soft color</p>
+        <p className="text-xs text-gray-400 mt-0.5">6g</p>
 
         {/* price row */}
         <div className="mt-2 flex items-baseline gap-2">
-          <span className="text-xl font-semibold text-gray-900">₹455</span>
-          <span className="text-sm text-gray-400 line-through">₹650</span>
-          <span className="text-sm font-medium text-green-600">(30% OFF)</span>
+          <span className="text-xl font-semibold text-gray-900">₹299</span>
+          <span className="text-sm text-gray-400 line-through">₹399</span>
+          <span className="text-sm font-medium text-green-600">(100% OFF)</span>
         </div>
       </div>
 
