@@ -17,11 +17,9 @@ import Makeup from './components/Makeup';
 import Skin from './components/Skin';
 import Combos from './components/Combos';
 import ScrollToTop from './components/ScrollToTop';
-<<<<<<< HEAD
-import Login from './components/Login';
-=======
 import { CartProvider } from "./components/CartContext";
->>>>>>> dc02d2a6167e29fe39b3c18f0e3cd6f7b7ea0ff8
+
+// import Login from './components/Login';
 
 
 
@@ -61,7 +59,7 @@ const App = () => {
       {/* <Makeup /> */}
       <Fragrances />
       {/* <Best /> */}
-      <Login/>
+      {/* <Login/> */}
       
     </CartProvider>
     </div>

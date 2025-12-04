@@ -86,7 +86,7 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-           Luvierra Pure Essence Eau De parfum
+           Luvierra Pure Essence  perfume
         </h3>
 
         <p className="mt-1 text-sm text-gray-500">An understated elegance perfect for a refined everyday</p>
@@ -135,7 +135,7 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-            Luvierra Violet Haze Eau De parfum
+            Luvierra Violet Haze  perfume
         </h3>
 
         <p className="mt-1 text-sm text-gray-500">A mysterious sophisticated and alluring fragrance</p>
@@ -184,10 +184,10 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-           Luvierra Azure Dream infused with Blue Lotus Eau De parfum
+           Luvierra Azure Dream infused with Blue Lotus perfume
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">A serene fragrance that evokes peaceful dreams and boundless skies</p>
+        <p className="mt-1 text-sm text-gray-500">A  fresh and soothing blue lotus fragrance</p>
         <p className="text-xs text-gray-400 mt-0.5">1unit</p>
 
         {/* price row */}
@@ -234,7 +234,7 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-       Luvierra Rose Petal & Oud Eau De parfum
+       Luvierra Rose Petal perfume
         </h3>
 
         <p className="mt-1 text-sm text-gray-500">A Romantic Long-Lasting Fragrance</p>
@@ -284,10 +284,10 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-             Luvierra Golden Elixir Eau De parfum
+             Luvierra Golden Elixir perfume
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500">An opulent and long-lasting scent that leaves a sensual sweet trail</p>
+        <p className="mt-1 text-sm text-gray-500">A warm and smooth golden fragrance</p>
         <p className="text-xs text-gray-400 mt-0.5">1unit</p>
 
         {/* price row */}
@@ -334,7 +334,7 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-           Luvierra jasmine & Sandalwood EDP
+           Luvierra jasmine & Sandalwood perfume
         </h3>
 
         <p className="mt-1 text-sm text-gray-500">A Warm Elegant and Timeless Scent</p>
@@ -384,7 +384,7 @@ const Fragrances = () => {
        
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-            Luvierra Golden Charm Eau De perfum
+            Luvierra Golden Charm perfume
         </h3>
 
         <p className="mt-1 text-sm text-gray-500">Captivating & Sophisticated</p>
@@ -434,7 +434,7 @@ const Fragrances = () => {
         
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-           Luvierra Sillage Bleu Eau De parfum
+           Luvierra Sillage perfume
         </h3>
 
         <p className="mt-1 text-sm text-gray-500">Fresh Aquatic & White Floral Blend</p>
@@ -484,7 +484,7 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-           Luvierra Ocean Breeze Eau De parfum
+           Luvierra Ocean Breeze perfume
         </h3>
 
         <p className="mt-1 text-sm text-gray-500">Refreshing Aquatic & Coastal Essence</p>
@@ -534,7 +534,7 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-           Luvierra Dreamy Blossom Eau De parfum
+           Luvierra Dreamy Blossom perfume
         </h3>
 
         <p className="mt-1 text-sm text-gray-500">Soft Floral & Fruity Sweetness combo</p>
@@ -584,7 +584,7 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-           Luvierra Green Meadow Eau De parfum
+           Luvierra Green Meadow perfume
         </h3>
 
         <p className="mt-1 text-sm text-gray-500">Fresh Green & Wild Floral Essence combo</p>
@@ -634,7 +634,7 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-            Luvierra Sweet Rose Eau De parfum
+            Luvierra Sweet Rose perfume
         </h3>
 
         <p className="mt-1 text-sm text-gray-500">Romantic Floral & Fruity Sweet combo</p>
@@ -684,7 +684,7 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-           Luvierra Fresh Eau De parfum
+           Luvierra Fresh perfume
         </h3>
 
         <p className="mt-1 text-sm text-gray-500">Airy Citrus & Clean Linen Notes Combo</p>
@@ -733,7 +733,7 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-            Luvierra Botanical Dew Eau De parfum
+            Luvierra Botanical Dew  perfume
         </h3>
 
         <p className="mt-1 text-sm text-gray-500">A Fresh subtle Scent reminiScent of morning gardens</p>
@@ -782,7 +782,7 @@ const Fragrances = () => {
         <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-           Luvierra Bella Blossom Eau De parfum
+           Luvierra  Blossom perfume
         </h3>
 
         <p className="mt-1 text-sm text-gray-500">A charming fragrance that celebrates feminine grace</p>
