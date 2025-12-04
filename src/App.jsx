@@ -18,6 +18,7 @@ import Combos from './components/Combos';
 import ScrollToTop from './components/ScrollToTop';
 import { CartProvider } from "./components/CartContext";
 import Cart from "./components/Cart"
+import ErrorPage from './components/ErrorPage';
 
 
 const App = () => {
@@ -62,6 +63,7 @@ const App = () => {
       {/* <Fragrances /> */}
       {/* <Best /> */}
       {/* <Cart /> */}
+      <ErrorPage/>
     </CartProvider>
     </div>
   )
