@@ -140,7 +140,9 @@ const Navbar = () => {
         </div> */}
         
       </div>  
-      <div className="relative">
+
+      <Link to="/cart" className="relative">
+      {/* <div className="relative"> */}
       <i className="fa-solid fa-cart-shopping cursor-pointer text-xl"></i>
 
       {cartCount > 0 && (
@@ -151,7 +153,8 @@ const Navbar = () => {
           {cartCount}
         </span>
       )}
-    </div>
+      </Link>
+    {/* </div> */}
     </nav>
   );
 };

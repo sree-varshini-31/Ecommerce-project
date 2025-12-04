@@ -24,6 +24,8 @@ import { FaInstagram, FaFacebookF, FaPinterestP } from 'react-icons/fa';
 import bg1 from '../assets/images/bg1-removebg-preview.png'
 import foo1 from '../assets/images/foo1.png'
 import { useCart } from "./CartContext";
+import toast from "react-hot-toast";
+
 
 
 const Hair = () => {
@@ -105,12 +107,32 @@ const Hair = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-        className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        onClick={addToCart}
-      >
-        Add to cart
-      </button>
+     <button
+  className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+  onClick={() => {
+    addToCart({
+      id: 1,
+      name: "Sulphate Free Shampoo",
+      price: 455,
+      image: shampoo1,
+      quantity: 1
+    });
+
+    toast.success("Item added to cart!", {
+  style: {
+    background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+    color: "#000",
+    fontWeight: "400",
+    minWidth: "300px",   
+    padding: "12px 16px",
+    borderRadius: "8px",
+  },
+});
+
+  }}
+>
+  Add to cart
+</button>
     </div>
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
       {/* ribbon */}
