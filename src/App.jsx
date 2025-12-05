@@ -1,5 +1,5 @@
 import React from 'react'
-import {Route,Routes,BrowserRouter} from "react-router-dom"
+import {Route,Routes} from "react-router-dom"
 import { Toaster, toast } from "react-hot-toast";
 
 
@@ -12,7 +12,8 @@ import Home from './components/Home';
 import Best from './components/Best';
 import Fragrances from './components/Fragrances';
 import Makeup from './components/Makeup';
-
+import Login from "./components/Login"
+import Profile from "./components/Profile"
 import Skin from './components/Skin';
 import Combos from './components/Combos';
 import ScrollToTop from './components/ScrollToTop';
@@ -29,7 +30,7 @@ const App = () => {
         reverseOrder={false}
       />
       <CartProvider>
-      <BrowserRouter>
+     
 
       <ScrollToTop />
   <Navbar />
@@ -42,14 +43,14 @@ const App = () => {
     <Route path="/makeup" element={<Makeup />} />
     <Route path="/bestsellers" element={<Best />} />
     <Route path="/kits-combos" element={<Combos />} />
-    <Route path="/login" element={<Register />} />
-    
+    <Route path="/login" element={<Login/>} />
+      <Route path="/profile" element={<Profile />} />
     <Route path='/cart' element={<Cart />}></Route>
     
     
 
   </Routes>
-</BrowserRouter>
+
 
 
      
