@@ -19,6 +19,7 @@ import { useCart } from "./CartContext";
 import { FaInstagram, FaFacebookF, FaPinterestP } from 'react-icons/fa';
 import bg1 from '../assets/images/bg1-removebg-preview.png'
 import foo1 from '../assets/images/foo1.png'
+import toast from "react-hot-toast";
 
 
 
@@ -101,12 +102,32 @@ const Fragrances = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-    <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-    >
-      Add to cart
-    </button>
+   <button
+  className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+  onClick={() => {
+    addToCart({
+      id: 43,
+      name: " Luvierra Pure Essence  perfume",
+      price: 1299,
+      image: perfume1,
+      quantity: 1
+    });
+
+    toast.success("Item added to cart!", {
+  style: {
+    background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+    color: "#000",
+    fontWeight: "400",
+    minWidth: "300px",   
+    padding: "12px 16px",
+    borderRadius: "8px",
+  },
+});
+
+  }}
+>
+  Add to cart
+</button>
     </div>
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
       {/* ribbon */}
@@ -150,12 +171,32 @@ const Fragrances = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-    className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-    onClick={addToCart}
-  >
-    Add to cart
-  </button>
+     <button
+  className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+  onClick={() => {
+    addToCart({
+      id: 44,
+      name: " Luvierra Violet Haze perfume",
+      price: 1925,
+      image: perfume2,
+      quantity: 1
+    });
+
+    toast.success("Item added to cart!", {
+  style: {
+    background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+    color: "#000",
+    fontWeight: "400",
+    minWidth: "300px",   
+    padding: "12px 16px",
+    borderRadius: "8px",
+  },
+});
+
+  }}
+>
+  Add to cart
+</button>
     </div>
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
       {/* ribbon */}
@@ -199,12 +240,32 @@ const Fragrances = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-    >
-      Add to cart
-    </button>
+        <button
+  className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+  onClick={() => {
+    addToCart({
+      id: 45,
+      name: "Luvierra Azure Dream infused with Blue Lotus perfume",
+      price: 399,
+      image: perfume3,
+      quantity: 1
+    });
+
+    toast.success("Item added to cart!", {
+  style: {
+    background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+    color: "#000",
+    fontWeight: "400",
+    minWidth: "300px",   
+    padding: "12px 16px",
+    borderRadius: "8px",
+  },
+});
+
+  }}
+>
+  Add to cart
+</button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -249,12 +310,32 @@ const Fragrances = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-    >
-      Add to cart
-    </button>
+       <button
+  className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+  onClick={() => {
+    addToCart({
+      id: 46,
+      name: "Luvierra Rose Petal perfume",
+      price: 999,
+      image: perfume4,
+      quantity: 1
+    });
+
+    toast.success("Item added to cart!", {
+  style: {
+    background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+    color: "#000",
+    fontWeight: "400",
+    minWidth: "300px",   
+    padding: "12px 16px",
+    borderRadius: "8px",
+  },
+});
+
+  }}
+>
+  Add to cart
+</button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -299,12 +380,32 @@ const Fragrances = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-     <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-    >
-      Add to cart
-    </button>
+       <button
+  className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+  onClick={() => {
+    addToCart({
+      id: 47,
+      name: "Luvierra Golden Exlixir perfume",
+      price: 1050,
+      image: perfume5,
+      quantity: 1
+    });
+
+    toast.success("Item added to cart!", {
+  style: {
+    background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+    color: "#000",
+    fontWeight: "400",
+    minWidth: "300px",   
+    padding: "12px 16px",
+    borderRadius: "8px",
+  },
+});
+
+  }}
+>
+  Add to cart
+</button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -349,12 +450,32 @@ const Fragrances = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-     <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-    >
-      Add to cart
-    </button>
+       <button
+  className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+  onClick={() => {
+    addToCart({
+      id: 48,
+      name: "Luvierra jasmine & Sandalwood perfume",
+      price: 499,
+      image: perfume6,
+      quantity: 1
+    });
+
+    toast.success("Item added to cart!", {
+  style: {
+    background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+    color: "#000",
+    fontWeight: "400",
+    minWidth: "300px",   
+    padding: "12px 16px",
+    borderRadius: "8px",
+  },
+});
+
+  }}
+>
+  Add to cart
+</button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -399,12 +520,32 @@ const Fragrances = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-     <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-    >
-      Add to cart
-    </button>
+       <button
+  className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+  onClick={() => {
+    addToCart({
+      id: 49,
+      name: "Luvierra Golden Charm perfume",
+      price: 599,
+      image: perfume7,
+      quantity: 1
+    });
+
+    toast.success("Item added to cart!", {
+  style: {
+    background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+    color: "#000",
+    fontWeight: "400",
+    minWidth: "300px",   
+    padding: "12px 16px",
+    borderRadius: "8px",
+  },
+});
+
+  }}
+>
+  Add to cart
+</button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -450,11 +591,31 @@ const Fragrances = () => {
 
       {/* full-width CTA with square edges */}
       <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-    >
-      Add to cart
-    </button>
+  className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+  onClick={() => {
+    addToCart({
+      id: 50,
+      name: "Luvierra Sillage perfume",
+      price: 900,
+      image: perfume8,
+      quantity: 1
+    });
+
+    toast.success("Item added to cart!", {
+  style: {
+    background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+    color: "#000",
+    fontWeight: "400",
+    minWidth: "300px",   
+    padding: "12px 16px",
+    borderRadius: "8px",
+  },
+});
+
+  }}
+>
+  Add to cart
+</button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -481,7 +642,7 @@ const Fragrances = () => {
 
       {/* body */}
       <div className="p-4">
-        <p className="text-[11px] font-semibold text-emerald-600">PRICE DROP</p>
+        
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
            Luvierra Ocean Breeze perfume
@@ -499,12 +660,32 @@ const Fragrances = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-    >
-      Add to cart
-    </button>
+       <button
+  className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+  onClick={() => {
+    addToCart({
+      id: 51,
+      name: "Luvierra  Ocean Breeze perfume",
+      price: 1988,
+      image: perfume9,
+      quantity: 1
+    });
+
+    toast.success("Item added to cart!", {
+  style: {
+    background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+    color: "#000",
+    fontWeight: "400",
+    minWidth: "300px",   
+    padding: "12px 16px",
+    borderRadius: "8px",
+  },
+});
+
+  }}
+>
+  Add to cart
+</button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -549,12 +730,32 @@ const Fragrances = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-     <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-    >
-      Add to cart
-    </button>
+      <button
+  className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+  onClick={() => {
+    addToCart({
+      id: 52,
+      name: "Luvierra Dreamy Bloosom perfume",
+      price: 1399,
+      image: perfume10,
+      quantity: 1
+    });
+
+    toast.success("Item added to cart!", {
+  style: {
+    background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+    color: "#000",
+    fontWeight: "400",
+    minWidth: "300px",   
+    padding: "12px 16px",
+    borderRadius: "8px",
+  },
+});
+
+  }}
+>
+  Add to cart
+</button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -599,12 +800,32 @@ const Fragrances = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-     <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-    >
-      Add to cart
-    </button>
+    <button
+  className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+  onClick={() => {
+    addToCart({
+      id: 53,
+      name: "Luvierra Green Meadow perfume",
+      price: 1715,
+      image: perfume11,
+      quantity: 1
+    });
+
+    toast.success("Item added to cart!", {
+  style: {
+    background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+    color: "#000",
+    fontWeight: "400",
+    minWidth: "300px",   
+    padding: "12px 16px",
+    borderRadius: "8px",
+  },
+});
+
+  }}
+>
+  Add to cart
+</button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -649,12 +870,32 @@ const Fragrances = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-     <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-    >
-      Add to cart
-    </button>
+    <button
+  className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+  onClick={() => {
+    addToCart({
+      id: 54,
+      name: "Luvierra Sweet Rose perfume",
+      price: 1552,
+      image: perfume12,
+      quantity: 1
+    });
+
+    toast.success("Item added to cart!", {
+  style: {
+    background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+    color: "#000",
+    fontWeight: "400",
+    minWidth: "300px",   
+    padding: "12px 16px",
+    borderRadius: "8px",
+  },
+});
+
+  }}
+>
+  Add to cart
+</button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -700,11 +941,31 @@ const Fragrances = () => {
 
       {/* full-width CTA with square edges */}
       <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-    >
-      Add to cart
-    </button>
+  className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+  onClick={() => {
+    addToCart({
+      id: 55,
+      name: "Luvierra Fresh perfume",
+      price: 1285,
+      image: perfume13,
+      quantity: 1
+    });
+
+    toast.success("Item added to cart!", {
+  style: {
+    background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+    color: "#000",
+    fontWeight: "400",
+    minWidth: "300px",   
+    padding: "12px 16px",
+    borderRadius: "8px",
+  },
+});
+
+  }}
+>
+  Add to cart
+</button>
     </div>
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
       {/* ribbon */}
@@ -748,12 +1009,32 @@ const Fragrances = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-    >
-      Add to cart
-    </button>
+     <button
+  className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+  onClick={() => {
+    addToCart({
+      id: 55,
+      name: "Luvierra Botanical Dew perfume",
+      price: 1463,
+      image: perfume14,
+      quantity: 1
+    });
+
+    toast.success("Item added to cart!", {
+  style: {
+    background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+    color: "#000",
+    fontWeight: "400",
+    minWidth: "300px",   
+    padding: "12px 16px",
+    borderRadius: "8px",
+  },
+});
+
+  }}
+>
+  Add to cart
+</button>
     </div>
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
       {/* ribbon */}
@@ -798,11 +1079,31 @@ const Fragrances = () => {
 
       {/* full-width CTA with square edges */}
       <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-    >
-      Add to cart
-    </button>
+  className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+  onClick={() => {
+    addToCart({
+      id: 56,
+      name: "Luvierra Bloosom perfume",
+      price: 1592,
+      image: perfume15,
+      quantity: 1
+    });
+
+    toast.success("Item added to cart!", {
+  style: {
+    background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+    color: "#000",
+    fontWeight: "400",
+    minWidth: "300px",   
+    padding: "12px 16px",
+    borderRadius: "8px",
+  },
+});
+
+  }}
+>
+  Add to cart
+</button>
     </div>
     <div>
       <img src={foo1} alt="" />

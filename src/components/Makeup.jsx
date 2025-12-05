@@ -20,6 +20,7 @@ import { useCart } from "./CartContext";
 import { FaInstagram, FaFacebookF, FaPinterestP } from 'react-icons/fa';
 import bg1 from '../assets/images/bg1-removebg-preview.png'
 import foo1 from '../assets/images/foo1.png'
+import toast from "react-hot-toast";
 
 
 
@@ -102,12 +103,32 @@ const Makeup = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-     <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-  >
-  Add to cart
-  </button>
+    <button
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+      onClick={() => {
+        addToCart({
+          id: 57,
+          name: " Luvierra Radiant Glow Highlighter",
+          price: 399,
+          image: makeup1,
+          quantity: 1
+        });
+    
+        toast.success("Item added to cart!", {
+      style: {
+        background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+        color: "#000",
+        fontWeight: "400",
+        minWidth: "300px",   
+        padding: "12px 16px",
+        borderRadius: "8px",
+      },
+    });
+    
+      }}
+    >
+      Add to cart
+    </button>
     </div>
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
       {/* ribbon */}
@@ -152,11 +173,31 @@ const Makeup = () => {
 
       {/* full-width CTA with square edges */}
      <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-  >
-  Add to cart
-  </button>
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+      onClick={() => {
+        addToCart({
+          id: 58,
+          name: " Luvierra Flawless Matte Compact Powder",
+          price: 840,
+          image: makeup2,
+          quantity: 1
+        });
+    
+        toast.success("Item added to cart!", {
+      style: {
+        background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+        color: "#000",
+        fontWeight: "400",
+        minWidth: "300px",   
+        padding: "12px 16px",
+        borderRadius: "8px",
+      },
+    });
+    
+      }}
+    >
+      Add to cart
+    </button>
     </div>
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
       {/* ribbon */}
@@ -200,12 +241,32 @@ const Makeup = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-  >
-  Add to cart
-  </button>
+       <button
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+      onClick={() => {
+        addToCart({
+          id: 59,
+          name: "Luvierra Radiance  illuminating Moisturizer",
+          price: 629,
+          image: makeup3,
+          quantity: 1
+        });
+    
+        toast.success("Item added to cart!", {
+      style: {
+        background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+        color: "#000",
+        fontWeight: "400",
+        minWidth: "300px",   
+        padding: "12px 16px",
+        borderRadius: "8px",
+      },
+    });
+    
+      }}
+    >
+      Add to cart
+    </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -251,11 +312,31 @@ const Makeup = () => {
 
       {/* full-width CTA with square edges */}
      <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-  >
-  Add to cart
-  </button>
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+      onClick={() => {
+        addToCart({
+          id: 60,
+          name: "Radient Dewy Finish setting spray",
+          price: 429,
+          image: makeup4,
+          quantity: 1
+        });
+    
+        toast.success("Item added to cart!", {
+      style: {
+        background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+        color: "#000",
+        fontWeight: "400",
+        minWidth: "300px",   
+        padding: "12px 16px",
+        borderRadius: "8px",
+      },
+    });
+    
+      }}
+    >
+      Add to cart
+    </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -300,12 +381,32 @@ const Makeup = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-  >
-  Add to cart
-  </button>
+       <button
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+      onClick={() => {
+        addToCart({
+          id: 61,
+          name: "Luvierra matte liquid lipstick",
+          price: 429,
+          image: makeup5,
+          quantity: 1
+        });
+    
+        toast.success("Item added to cart!", {
+      style: {
+        background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+        color: "#000",
+        fontWeight: "400",
+        minWidth: "300px",   
+        padding: "12px 16px",
+        borderRadius: "8px",
+      },
+    });
+    
+      }}
+    >
+      Add to cart
+    </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -350,12 +451,32 @@ const Makeup = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-     <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-  >
-  Add to cart
-  </button>
+    <button
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+      onClick={() => {
+        addToCart({
+          id: 62,
+          name: "Luvierra precision liquid Eyeliner",
+          price: 299,
+          image: makeup6,
+          quantity: 1
+        });
+    
+        toast.success("Item added to cart!", {
+      style: {
+        background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+        color: "#000",
+        fontWeight: "400",
+        minWidth: "300px",   
+        padding: "12px 16px",
+        borderRadius: "8px",
+      },
+    });
+    
+      }}
+    >
+      Add to cart
+    </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -401,11 +522,31 @@ const Makeup = () => {
 
       {/* full-width CTA with square edges */}
       <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-  >
-  Add to cart
-  </button>
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+      onClick={() => {
+        addToCart({
+          id: 63,
+          name: "Luvierra Volumizing Mascara",
+          price: 279,
+          image: makeup7,
+          quantity: 1
+        });
+    
+        toast.success("Item added to cart!", {
+      style: {
+        background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+        color: "#000",
+        fontWeight: "400",
+        minWidth: "300px",   
+        padding: "12px 16px",
+        borderRadius: "8px",
+      },
+    });
+    
+      }}
+    >
+      Add to cart
+    </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -435,10 +576,10 @@ const Makeup = () => {
         
 
         <h3 className="mt-1 text-base font-semibold text-gray-900">
-         Luvierra volvet matte lipstic
+         Luvierra volvet matte lipstick
         </h3>
 
-        <p className="mt-1 text-sm text-gray-500"> A smooth lipstic that gives a soft matte look</p>
+        <p className="mt-1 text-sm text-gray-500"> A smooth lipstick that gives a soft matte look</p>
         <p className="text-xs text-gray-400 mt-0.5">3.5g</p>
 
         {/* price row */}
@@ -451,11 +592,31 @@ const Makeup = () => {
 
       {/* full-width CTA with square edges */}
       <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-  >
-  Add to cart
-  </button>
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+      onClick={() => {
+        addToCart({
+          id: 64,
+          name: "Luvierra volvet matte lipstick",
+          price: 299,
+          image: makeup8,
+          quantity: 1
+        });
+    
+        toast.success("Item added to cart!", {
+      style: {
+        background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+        color: "#000",
+        fontWeight: "400",
+        minWidth: "300px",   
+        padding: "12px 16px",
+        borderRadius: "8px",
+      },
+    });
+    
+      }}
+    >
+      Add to cart
+    </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -501,11 +662,31 @@ const Makeup = () => {
 
       {/* full-width CTA with square edges */}
      <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-  >
-  Add to cart
-  </button>
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+      onClick={() => {
+        addToCart({
+          id: 65,
+          name: "Luvierra soft matte compact powder",
+          price: 349,
+          image: makeup9,
+          quantity: 1
+        });
+    
+        toast.success("Item added to cart!", {
+      style: {
+        background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+        color: "#000",
+        fontWeight: "400",
+        minWidth: "300px",   
+        padding: "12px 16px",
+        borderRadius: "8px",
+      },
+    });
+    
+      }}
+    >
+      Add to cart
+    </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -551,11 +732,31 @@ const Makeup = () => {
 
       {/* full-width CTA with square edges */}
      <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-  >
-  Add to cart
-  </button>
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+      onClick={() => {
+        addToCart({
+          id: 66,
+          name: "Luvierra soft blur loosepowder",
+          price: 379,
+          image: makeup10,
+          quantity: 1
+        });
+    
+        toast.success("Item added to cart!", {
+      style: {
+        background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+        color: "#000",
+        fontWeight: "400",
+        minWidth: "300px",   
+        padding: "12px 16px",
+        borderRadius: "8px",
+      },
+    });
+    
+      }}
+    >
+      Add to cart
+    </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -600,12 +801,32 @@ const Makeup = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-  >
-  Add to cart
-  </button>
+     <button
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+      onClick={() => {
+        addToCart({
+          id: 67,
+          name: "Luvierra Natural glow foundation",
+          price: 429,
+          image: makeup11,
+          quantity: 1
+        });
+    
+        toast.success("Item added to cart!", {
+      style: {
+        background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+        color: "#000",
+        fontWeight: "400",
+        minWidth: "300px",   
+        padding: "12px 16px",
+        borderRadius: "8px",
+      },
+    });
+    
+      }}
+    >
+      Add to cart
+    </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -651,11 +872,31 @@ const Makeup = () => {
 
       {/* full-width CTA with square edges */}
      <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-  >
-  Add to cart
-  </button>
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+      onClick={() => {
+        addToCart({
+          id: 67,
+          name: "Luvierra liquid concealer",
+          price: 249,
+          image: makeup12,
+          quantity: 1
+        });
+    
+        toast.success("Item added to cart!", {
+      style: {
+        background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+        color: "#000",
+        fontWeight: "400",
+        minWidth: "300px",   
+        padding: "12px 16px",
+        borderRadius: "8px",
+      },
+    });
+    
+      }}
+    >
+      Add to cart
+    </button>
     </div>
 
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
@@ -701,11 +942,31 @@ const Makeup = () => {
 
       {/* full-width CTA with square edges */}
      <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-  >
-  Add to cart
-  </button>
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+      onClick={() => {
+        addToCart({
+          id: 68,
+          name: "Luvierra Radiance glow serum",
+          price: 499,
+          image: makeup13,
+          quantity: 1
+        });
+    
+        toast.success("Item added to cart!", {
+      style: {
+        background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+        color: "#000",
+        fontWeight: "400",
+        minWidth: "300px",   
+        padding: "12px 16px",
+        borderRadius: "8px",
+      },
+    });
+    
+      }}
+    >
+      Add to cart
+    </button>
     </div>
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
       {/* ribbon */}
@@ -750,11 +1011,31 @@ const Makeup = () => {
 
       {/* full-width CTA with square edges */}
       <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-  >
-  Add to cart
-  </button>
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+      onClick={() => {
+        addToCart({
+          id: 69,
+          name: "Luvierra smooth Glide lip crayon",
+          price: 199,
+          image: makeup14,
+          quantity: 1
+        });
+    
+        toast.success("Item added to cart!", {
+      style: {
+        background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+        color: "#000",
+        fontWeight: "400",
+        minWidth: "300px",   
+        padding: "12px 16px",
+        borderRadius: "8px",
+      },
+    });
+    
+      }}
+    >
+      Add to cart
+    </button>
     </div>
     <div className="max-w-sm w-full rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
       {/* ribbon */}
@@ -798,12 +1079,32 @@ const Makeup = () => {
       </div>
 
       {/* full-width CTA with square edges */}
-      <button
-      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500"
-      onClick={addToCart}
-  >
-  Add to cart
-  </button>
+     <button
+      className="w-full rounded-none bg-yellow-400 py-3 text-sm font-semibold text-gray-900 hover:bg-yellow-500 cursor-pointer"
+      onClick={() => {
+        addToCart({
+          id: 70,
+          name: "Luvierra velvet shine lip gloss",
+          price: 299,
+          image: makeup15,
+          quantity: 1
+        });
+    
+        toast.success("Item added to cart!", {
+      style: {
+        background: "linear-gradient(135deg, #d9e9f3ff, #f8e1f3ff) " ,
+        color: "#000",
+        fontWeight: "400",
+        minWidth: "300px",   
+        padding: "12px 16px",
+        borderRadius: "8px",
+      },
+    });
+    
+      }}
+    >
+      Add to cart
+    </button>
     </div>
     <div>
       <img src={foo1} alt="" />
