@@ -1,4 +1,3 @@
-
 import { createContext, useContext, useState } from "react";
 
 const CartContext = createContext();
@@ -48,16 +47,28 @@ export const CartProvider = ({ children }) => {
     setCartItems((prev) => prev.filter((item) => item.id !== id));
   };
 
+  //  CLEAR FULL CART (NEW)
+  const clearCart = () => {
+    setCartItems([]);
+  };
+
   const cartCount = cartItems.reduce((sum, item) => sum + item.quantity, 0);
 
   return (
     <CartContext.Provider
-      value={{ cartItems, addToCart, increaseQty, decreaseQty, removeItem, cartCount }}
+      value={{
+        cartItems,
+        addToCart,
+        increaseQty,
+        decreaseQty,
+        removeItem,
+        clearCart,   
+        cartCount
+      }}
     >
       {children}
     </CartContext.Provider>
   );
 };
-
 
 export const useCart = () => useContext(CartContext);

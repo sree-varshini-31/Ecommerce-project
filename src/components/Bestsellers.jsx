@@ -1,9 +1,11 @@
+
 import React, { useEffect, useState } from "react";
 import ProductsGrid from "./ProductsGrid";
 import bg1 from '../assets/images/bg1-removebg-preview.png';
 import { FaInstagram, FaFacebookF, FaPinterestP } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-// ⭐ UPDATED FOOTER LINKS WITH PATHS
+
+// UPDATED FOOTER LINKS WITH PATHS
 const footerLinks = [
   {
     title: "Company",
@@ -35,24 +37,26 @@ const footerLinks = [
   },
 ];
 
-export default function Combos() {
+export default function Bestsellers() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
- const navigate = useNavigate(); // ⭐ added navigation
+
+  const navigate = useNavigate(); // added navigation
 
   useEffect(() => {
     setLoading(true);
-    fetch("http://localhost:8080/api/products/category/combos")
-      .then(res => {
-        if (!res.ok) throw new Error("Failed to fetch combos");
+    fetch("http://localhost:8080/api/products/category/bestsellers")
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to fetch bestsellers");
         return res.json();
       })
-      .then(data => setProducts(data))
-      .catch(err => setError(err.message))
+      .then((data) => setProducts(data))
+      .catch((err) => setError(err.message))
       .finally(() => setLoading(false));
   }, []);
 
+  // Loader
   if (loading)
     return (
       <div className="flex-col gap-4 w-full flex items-center justify-center py-20">
@@ -66,18 +70,19 @@ export default function Combos() {
 
   return (
     <div>
-       {/* Banner Image */}
+      {/* Banner */}
       <div className="w-full mb-6">
         <img
-          src="/images/combopage.jpg"   // <-- your banner image path
-          alt="Combos Banner"
+          src="/images/best.png"
+          alt="Bestsellers Banner"
           className="w-full h-150 object-cover rounded-xl shadow"
         />
       </div>
-      {/* <h2 className="text-2xl font-semibold p-6">Combos</h2> */}
+
+      {/* Products Grid */}
       <ProductsGrid products={products} />
 
-{/* ⭐ Footer */}
+      {/*  Footer */}
       <footer className="bg-gradient-to-tr from-blue-50 to-pink-50 text-gray-600 border-t border-gray-500">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
 
@@ -88,7 +93,7 @@ export default function Combos() {
               <img src={bg1} alt="Luvierra Logo" className="h-12 w-auto" />
             </div>
 
-            {/* ⭐ CLICKABLE FOOTER LINKS */}
+            {/* CLICKABLE FOOTER LINKS */}
             {footerLinks.map((section) => (
               <div key={section.title} className="col-span-1">
                 <h3 className="text-sm font-bold tracking-wider mb-4 uppercase text-green-800">
@@ -146,9 +151,6 @@ export default function Combos() {
 
         </div>
       </footer>
-  
-      
     </div>
-    
   );
 }

@@ -2,10 +2,12 @@
 import React, { useState } from "react";
 import { useCart } from "./CartContext";
 import cart from "../assets/imagess/cart.png";
+import orderPlacedImg from "../assets/images/addtocart.jpeg"; // ← ADD YOUR IMAGE
 
 const Cart = () => {
-  const { cartItems, increaseQty, decreaseQty, removeItem } = useCart();
+  const { cartItems, increaseQty, decreaseQty, removeItem, clearCart } = useCart();
   const [fadeOutIds, setFadeOutIds] = useState([]);
+  const [orderPlaced, setOrderPlaced] = useState(false);
 
   const handleDelete = (id) => {
     setFadeOutIds((prev) => (prev.includes(id) ? prev : [...prev, id]));
@@ -17,12 +19,32 @@ const Cart = () => {
   };
 
   const subtotal = cartItems
-    .reduce((sum, item) => sum + item.price * item.quantity, 0)
+    .reduce((sum, item) => sum + Number(item.price) * item.quantity, 0)
     .toFixed(2);
 
   return (
     <div className="flex justify-center font-sans mt-0">
       <div className="flex flex-col gap-6 w-full max-w-4xl">
+
+        {/* ORDER PLACED POPUP */}
+        {orderPlaced && (
+          <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-50">
+            <div className="bg-white p-6 rounded-2xl shadow-xl flex flex-col items-center">
+              <img src={orderPlacedImg} alt="Order Placed" className="w-48 mb-4" />
+              <h2 className="text-xl font-bold text-gray-800 mb-2">Order Placed!</h2>
+              <p className="text-gray-600 text-center mb-4">
+                Thank you for shopping with us.
+              </p>
+
+              <button
+                className="px-6 py-2 bg-green-600 text-white rounded-md hover:bg-green-700"
+                onClick={() => setOrderPlaced(false)}
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* CART BOX */}
         <div className="w-full bg-white shadow-[0_4px_20px_rgba(0,0,0,0.15)] rounded-2xl">
@@ -32,23 +54,18 @@ const Cart = () => {
 
           <div className="flex flex-col p-5">
             {/* EMPTY CART VIEW */}
-           {cartItems.length === 0 && (
-  <div className="flex flex-col items-center justify-center py-0">
-    {/* Custom Shopping Bag Image */}
-    <img
-      src={cart} // replace with your image path
-      alt="Empty Cart"
-      className="h-70 w-140 mb-4 "
-    />
+            {cartItems.length === 0 && !orderPlaced && (
+              <div className="flex flex-col items-center justify-center py-0">
+                <img src={cart} alt="Empty Cart" className="h-70 w-140 mb-4" />
+                <h2 className="text-gray-800 font-bold text-xl mb-2">Your cart is empty :(</h2>
+                <p className="text-gray-500 text-center">
+                  Looks like you have not added anything to your cart.
+                  <br />
+                  Go ahead & explore top categories.
+                </p>
+              </div>
+            )}
 
-    <h2 className="text-gray-800 font-bold text-xl mb-2">
-      Your cart is empty :(
-    </h2>
-    <p className="text-gray-500 text-center">
-      Looks like you have not added anything to you cart.<br /> Go ahead & explore top categories.
-    </p>
-  </div>
-)}
             {/* CART ITEMS */}
             {cartItems.map((item) => (
               <div
@@ -58,7 +75,7 @@ const Cart = () => {
                 }`}
               >
                 <img
-                  src={item.image}
+                  src={item.imageUrl}
                   alt={item.name}
                   className="w-[110px] h-[110px] bg-[#FFF6EE] rounded-lg object-cover shadow-sm"
                 />
@@ -67,18 +84,18 @@ const Cart = () => {
                   <span className="text-[17px] font-semibold text-gray-800 leading-tight">
                     {item.name}
                   </span>
+                  <p className="text-[14px] text-gray-500 mt-1">{item.description}</p>
                   <p className="text-[13px] font-semibold text-gray-500 mt-1">
                     Qty: {item.quantity}
                   </p>
                 </div>
 
+                {/* QUANTITY BUTTONS */}
                 <div className="h-[38px] grid grid-cols-3 border border-gray-300 rounded-md shadow-sm mx-auto">
                   <button
                     className="flex items-center justify-center hover:bg-gray-100"
                     onClick={() =>
-                      item.quantity === 1
-                        ? handleDelete(item.id)
-                        : decreaseQty(item.id)
+                      item.quantity === 1 ? handleDelete(item.id) : decreaseQty(item.id)
                     }
                   >
                     {item.quantity === 1 ? (
@@ -123,14 +140,14 @@ const Cart = () => {
                 </div>
 
                 <label className="text-[18px] font-bold ml-auto text-gray-800">
-                  ₹{item.price}
+                  ₹{Number(item.price).toFixed(2)}
                 </label>
               </div>
             ))}
           </div>
         </div>
 
-        {/* CHECKOUT BOX */}
+        {/* CHECKOUT SECTION */}
         {cartItems.length > 0 && (
           <div className="w-full bg-white shadow-[0_4px_20px_rgba(0,0,0,0.15)] rounded-2xl">
             <label className="w-full h-14 flex items-center justify-center border-b font-bold text-[20px] text-gray-700">
@@ -159,7 +176,15 @@ const Cart = () => {
                 ₹{(parseFloat(subtotal) - 18.30 + 32.02).toFixed(2)}
               </label>
 
-              <button className="w-[180px] h-11 bg-blue-600 rounded-md text-white font-semibold text-[15px] hover:bg-blue-700">
+              <button
+                className="w-[180px] h-11 bg-blue-600 rounded-md text-white font-semibold text-[15px] hover:bg-blue-700"
+                onClick={() => {
+                  setOrderPlaced(true);   // Show popup
+                  setTimeout(() => {
+                    clearCart();         // Empty cart
+                  }, 500);
+                }}
+              >
                 Checkout
               </button>
             </div>
