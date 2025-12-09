@@ -73,7 +73,7 @@ export default function Skin() {
         <img
           src="/imagess/skin.png"   // <-- your banner image path
           alt="SkinCare Banner"
-          className="w-full h-130 object-cover rounded-xl shadow"
+          className="w-full h-140 object-cover rounded-xl shadow"
         />
       </div>
       {/* <h2 className="text-2xl font-semibold p-6">Skin</h2> */}

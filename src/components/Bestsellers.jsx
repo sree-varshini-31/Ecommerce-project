@@ -74,7 +74,7 @@ export default function Bestsellers() {
         <img
           src="/images/best.png"
           alt="Bestsellers Banner"
-          className="w-full h-150 object-cover rounded-xl shadow"
+          className="w-full h-130 object-cover rounded-xl shadow"
         />
       </div>
 

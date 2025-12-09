@@ -72,7 +72,7 @@ export default function Fragrances() {
         <img
           src="Frag_1.jpg"   // <-- your banner image path
           alt="Fragrancess Banner"
-          className="w-full h-150 object-cover rounded-xl shadow"
+          className="w-full h-120 object-cover rounded-xl shadow"
         />
         </div>
       {/* <h2 className="text-2xl font-semibold p-6">Fragrances</h2> */}

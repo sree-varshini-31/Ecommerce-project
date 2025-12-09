@@ -73,7 +73,7 @@ export default function Hair() {
         <img
           src="/images/Untitled Project (2).jpg"   // <-- your banner image path
           alt="HairCare Banner"
-          className="w-full h-130 object-cover rounded-xl shadow"
+          className="w-full h-100 object-cover rounded-xl shadow"
         />
       </div>
       {/* <h2 className="text-2xl font-semibold p-6">Hair</h2> */}
