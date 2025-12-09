@@ -1,26 +1,50 @@
-// src/pages/Login.jsx
+// src/components/Login.jsx
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "../components/AuthContext";
+import axios from "axios";
+import { toast } from "react-toastify";
 import logo from "../assets/images/bg1-removebg-preview.png";
+import { useAuth } from "./AuthContext";
 
-export default function Login() {
-  const { login } = useAuth();
+function Login() {
   const navigate = useNavigate();
+  const { login } = useAuth();
 
-  const [name, setName] = useState("");
-  const [username, setUsername] = useState("");
-  const [gender, setGender] = useState("");
-  const [country, setCountry] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // send all fields to AuthContext
-    login({ name, username, email, gender, country });
-    navigate("/profile");
+    try {
+      const res = await axios.post("http://localhost:8080/api/auth/login", {
+        email,
+        password,
+      });
+
+      const data = res.data; // make sure backend returns these fields
+
+      // set user in AuthContext (for Profile page)
+      login({
+        name: data.name || "User",
+        username: data.username || "",
+        email: data.email || email,
+        gender: data.gender || "Female",
+        country: data.country || "India",
+        dob: data.dob || "",
+        phone: data.phoneNumber || "",
+        city: data.city || "",
+      });
+
+      toast.success("Login successful");
+      navigate("/home");
+    } catch (err) {
+      if (err.response && err.response.status === 401) {
+        toast.error("Invalid email or password");
+      } else {
+        toast.error("Login failed. Please try again.");
+      }
+    }
   };
 
   return (
@@ -39,36 +63,6 @@ export default function Login() {
         </p>
 
         <form className="mt-8 space-y-5" onSubmit={handleSubmit}>
-          {/* Name */}
-          <div>
-            <label className="block text-sm font-medium text-[#3c2831]">
-              Full name
-            </label>
-            <input
-              type="text"
-              required
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              className="mt-2 w-full rounded-2xl border border-pink-100 bg-[#fff9fc] px-4 py-3 text-sm text-[#3c2831] outline-none focus:border-pink-300 focus:ring-2 focus:ring-pink-100"
-              placeholder="Your name"
-            />
-          </div>
-
-          {/* Username */}
-          <div>
-            <label className="block text-sm font-medium text-[#3c2831]">
-              Username
-            </label>
-            <input
-              type="text"
-              required
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-              className="mt-2 w-full rounded-2xl border border-pink-100 bg-[#fff9fc] px-4 py-3 text-sm text-[#3c2831] outline-none focus:border-pink-300 focus:ring-2 focus:ring-pink-100"
-              placeholder="e.g. maria_fernanda"
-            />
-          </div>
-
           {/* Email */}
           <div>
             <label className="block text-sm font-medium text-[#3c2831]">
@@ -84,44 +78,7 @@ export default function Login() {
             />
           </div>
 
-          {/* Gender + Country on one row (desktop) */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {/* Gender */}
-            <div>
-              <label className="block text-sm font-medium text-[#3c2831]">
-                Gender
-              </label>
-              <select
-                required
-                value={gender}
-                onChange={(e) => setGender(e.target.value)}
-                className="mt-2 w-full rounded-2xl border border-pink-100 bg-[#fff9fc] px-4 py-3 text-sm text-[#3c2831] outline-none focus:border-pink-300 focus:ring-2 focus:ring-pink-100"
-              >
-                <option value="">Select gender</option>
-                <option value="Female">Female</option>
-                <option value="Male">Male</option>
-                <option value="Other">Other</option>
-                <option value="Prefer not to say">Prefer not to say</option>
-              </select>
-            </div>
-
-            {/* Country */}
-            <div>
-              <label className="block text-sm font-medium text-[#3c2831]">
-                Country
-              </label>
-              <input
-                type="text"
-                required
-                value={country}
-                onChange={(e) => setCountry(e.target.value)}
-                className="mt-2 w-full rounded-2xl border border-pink-100 bg-[#fff9fc] px-4 py-3 text-sm text-[#3c2831] outline-none focus:border-pink-300 focus:ring-2 focus:ring-pink-100"
-                placeholder="India"
-              />
-            </div>
-          </div>
-
-          {/* Password (same as before) */}
+          {/* Password */}
           <div>
             <div className="flex items-center justify-between">
               <label className="block text-sm font-medium text-[#3c2831]">
@@ -129,6 +86,7 @@ export default function Login() {
               </label>
               <button
                 type="button"
+                onClick={() => navigate("/forgot-password")}
                 className="text-xs text-pink-500 hover:underline"
               >
                 Forgot password?
@@ -165,3 +123,5 @@ export default function Login() {
     </div>
   );
 }
+
+export default Login;

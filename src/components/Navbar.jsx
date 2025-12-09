@@ -1,20 +1,20 @@
-// src/components/Navbar.jsx (replace your current file)
+// src/components/Navbar.jsx
 import { Link, useNavigate } from "react-router-dom";
 import React, { useState } from "react";
 import logo from "../assets/logo-black.jpg";
 import { useCart } from "./CartContext";
-import { useAuth } from "../components/AuthContext"; // Add this import
+import { useAuth } from "./AuthContext";
 
 const Navbar = () => {
   const { cartCount } = useCart();
-  const { user } = useAuth(); // Add this to get user state
+  const { user } = useAuth();
   const [searchText, setSearchText] = useState("");
   const navigate = useNavigate();
 
   const handleSearch = () => {
     const lower = searchText.toLowerCase();
 
-    // Hair Care
+    // hair
     if (
       lower.includes("hair") ||
       lower.includes("shampoo") ||
@@ -28,7 +28,7 @@ const Navbar = () => {
       return;
     }
 
-    // Skin Care
+    // skin
     if (
       lower.includes("skin") ||
       lower.includes("skincare") ||
@@ -45,7 +45,7 @@ const Navbar = () => {
       return;
     }
 
-    // Makeup
+    // makeup
     if (
       lower.includes("makeup") ||
       lower.includes("lipstick") ||
@@ -59,7 +59,7 @@ const Navbar = () => {
       return;
     }
 
-    // Fragrances
+    // fragrances
     if (
       lower.includes("perfume") ||
       lower.includes("fragrance") ||
@@ -70,7 +70,7 @@ const Navbar = () => {
       return;
     }
 
-    // Kits & Combos
+    // kits & combos
     if (
       lower.includes("combo") ||
       lower.includes("kit") ||
@@ -83,10 +83,9 @@ const Navbar = () => {
     setSearchText("");
   };
 
-  // Handle user icon/avatar click
   const handleUserClick = () => {
     if (user) {
-      navigate("/profile");
+      navigate("/profile"); // avatar click -> profile page
     } else {
       navigate("/login");
     }
@@ -94,12 +93,12 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white text-black flex justify-between items-center px-10 py-5 shadow-md sticky top-0 z-50">
-      {/* Logo */}
+      {/* logo */}
       <div className="flex items-center space-x-6 ml-10">
         <img src={logo} alt="logo" className="w-32 h-auto object-contain" />
       </div>
 
-      {/* Menu */}
+      {/* menu */}
       <ul className="flex space-x-8 text-lg font-semibold font-[Poppins] text-black">
         {[
           { name: "Home", path: "/home" },
@@ -119,9 +118,9 @@ const Navbar = () => {
         ))}
       </ul>
 
-      {/* Search + User Avatar/Icon + Cart */}
+      {/* right side */}
       <div className="flex items-center space-x-5 text-xl">
-        {/* Search Bar */}
+        {/* search */}
         <div className="flex items-center border border-gray-300 rounded-full px-3 py-1">
           <input
             type="text"
@@ -137,10 +136,9 @@ const Navbar = () => {
           ></i>
         </div>
 
-        {/* User Icon or Avatar */}
+        {/* avatar / user icon */}
         <button onClick={handleUserClick} className="relative">
           {user ? (
-            // Avatar when logged in
             <div className="w-8 h-8 rounded-full overflow-hidden bg-gray-200 border-2 border-gray-300">
               <img
                 src={user.avatarUrl}
@@ -149,12 +147,11 @@ const Navbar = () => {
               />
             </div>
           ) : (
-            // User icon when not logged in
             <i className="fa-regular fa-user cursor-pointer text-xl hover:text-purple-600"></i>
           )}
         </button>
 
-        {/* Cart */}
+        {/* cart */}
         <Link to="/cart" className="relative">
           <i className="fa-solid fa-cart-shopping cursor-pointer text-xl hover:text-purple-600"></i>
           {cartCount > 0 && (
