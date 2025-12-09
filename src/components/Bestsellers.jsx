@@ -1,11 +1,10 @@
-
 import React, { useEffect, useState } from "react";
 import ProductsGrid from "./ProductsGrid";
 import bg1 from '../assets/images/bg1-removebg-preview.png';
 import { FaInstagram, FaFacebookF, FaPinterestP } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
-// UPDATED FOOTER LINKS WITH PATHS
+// ⭐ UPDATED FOOTER LINKS WITH PATHS
 const footerLinks = [
   {
     title: "Company",
@@ -42,7 +41,7 @@ export default function Bestsellers() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const navigate = useNavigate(); // added navigation
+  const navigate = useNavigate(); // ⭐ added navigation
 
   useEffect(() => {
     setLoading(true);
@@ -82,7 +81,7 @@ export default function Bestsellers() {
       {/* Products Grid */}
       <ProductsGrid products={products} />
 
-      {/*  Footer */}
+      {/* ⭐ Footer */}
       <footer className="bg-gradient-to-tr from-blue-50 to-pink-50 text-gray-600 border-t border-gray-500">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
 
@@ -93,7 +92,7 @@ export default function Bestsellers() {
               <img src={bg1} alt="Luvierra Logo" className="h-12 w-auto" />
             </div>
 
-            {/* CLICKABLE FOOTER LINKS */}
+            {/* ⭐ CLICKABLE FOOTER LINKS */}
             {footerLinks.map((section) => (
               <div key={section.title} className="col-span-1">
                 <h3 className="text-sm font-bold tracking-wider mb-4 uppercase text-green-800">

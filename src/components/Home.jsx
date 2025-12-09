@@ -80,7 +80,7 @@ export default function Home() {
 
   useEffect(() => {
     setLoading(true);
-    fetch("http://localhost:8080/api/products/home")
+    fetch("http://localhost:8080/api/products")
       .then(res => {
         if (!res.ok) throw new Error("Failed to fetch products");
         return res.json();

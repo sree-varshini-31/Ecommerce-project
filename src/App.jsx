@@ -9,7 +9,7 @@ import './index.css';
 import Navbar from './components/Navbar';
 import Hair from './components/Hair';
 import Home from './components/Home';
-import Best from './components/Best';
+import Bestsellers from './components/Bestsellers';
 import Fragrances from './components/Fragrances';
 import Makeup from './components/Makeup';
 import Login from "./components/Login"
@@ -41,11 +41,12 @@ const App = () => {
     <Route path="/skincare" element={<Skin />} />
     <Route path="/fragrances" element={<Fragrances />} />
     <Route path="/makeup" element={<Makeup />} />
-    <Route path="/bestsellers" element={<Best />} />
+    <Route path="/bestsellers" element={<Bestsellers />} />
     <Route path="/kits-combos" element={<Combos />} />
     <Route path="/login" element={<Login/>} />
       <Route path="/profile" element={<Profile />} />
     <Route path='/cart' element={<Cart />}></Route>
+    <Route path='*' element={<ErrorPage/>} ></Route>
     
     
 
@@ -64,7 +65,7 @@ const App = () => {
       {/* <Fragrances /> */}
       {/* <Best /> */}
       {/* <Cart /> */}
-      <ErrorPage/>
+      {/* <ErrorPage/> */}
     </CartProvider>
     </div>
   )
