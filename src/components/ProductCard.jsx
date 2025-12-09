@@ -1,7 +1,8 @@
 
 import React from "react";
 import { useCart } from "./CartContext";
-import { toast } from "react-hot-toast";
+
+import { toast } from "react-toastify";
 
 const IMAGE_BASE_URL = "http://localhost:5173";
 
@@ -78,7 +79,7 @@ export default function ProductCard({ product }) {
               },
             });
           }}
-          className="w-full bg-yellow-400 hover:bg-yellow-500 py-3 font-semibold text-black mt-4 transition-colors"
+          className="w-full bg-yellow-400 hover:bg-yellow-500 py-3 font-semibold text-black mt-4 transition-colors cursor-pointer rounded-b-xl"
         >
           Add to cart
         </button>
