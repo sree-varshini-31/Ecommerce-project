@@ -56,7 +56,7 @@ function Login() {
         </div>
 
         <h1 className="text-2xl md:text-3xl font-semibold text-[#261a20] text-center">
-          Welcome back
+          Welcome 
         </h1>
         <p className="text-sm text-[#8b6f7a] mt-1 text-center">
           Sign in to continue your Luvierra journey.
