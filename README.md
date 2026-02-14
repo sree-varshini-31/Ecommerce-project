@@ -1,6 +1,6 @@
 # Ecommerce Project 🚀
 
-Full-stack e-commerce application built by **5-member team** from **Ravindra Engineering College**. Features user authentication, product catalog, shopping cart, and responsive design.
+Full-stack e-commerce application built by **5-member team** from **Exceler pvt Ltd**. Features user authentication, product catalog, shopping cart, and responsive design.
 
 ## 📁 Project Structure
 Ecommerce-project/
